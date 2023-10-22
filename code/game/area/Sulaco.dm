@@ -76,6 +76,8 @@
 	name = "\improper Dropship Normandy"
 	icon_state = "shuttle"
 	base_muffle = MUFFLE_HIGH
+	area_has_base_lighting = TRUE
+	base_lighting_alpha = 0
 
 /area/shuttle/drop2/LV624
 	name = "\improper Dropship Normandy"

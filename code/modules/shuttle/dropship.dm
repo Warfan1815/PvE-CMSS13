@@ -215,3 +215,90 @@
 /obj/structure/shuttle/part/dropship2/transparent/right_outer_bottom_wing
 	icon_state = "6"
 
+/obj/structure/shuttle/part/dropship_movie
+	name = "\improper UD-4M Cheyenne Dropship"
+	icon = 'icons/turf/dropship4.dmi'
+
+/obj/structure/shuttle/part/dropship_movie/left_port
+	icon_state = "61"
+
+/obj/structure/shuttle/part/dropship_movie/right_port
+	icon_state = "66"
+
+/obj/structure/shuttle/part/dropship_movie/transparent
+	opacity = FALSE
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_1
+	icon_state = "30"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_2
+	icon_state = "2"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_3
+	icon_state = "5"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_4
+	icon_state = "12"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_5
+	icon_state = "11"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_6
+	icon_state = "10"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/north_wing
+	icon_state = "9"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_1
+	icon_state = "28"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_2
+	icon_state = "32"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_3
+	icon_state = "3"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_4
+	icon_state = "6"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_5
+	icon_state = "7"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_6
+	icon_state = "8"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_south_wing_1
+	icon_state = "67"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_south_wing_2
+	icon_state = "35"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_south_wing_1
+	icon_state = "70"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_south_wing_2
+	icon_state = "38"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/cockpit_wing_1
+	icon_state = "54"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_cockpit_1
+	icon_state = "53"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/left_cockpit_wing_2
+	icon_state = "56"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_cockpit_wing_1
+	icon_state = "55"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/right_cockpit_wing_2
+	icon_state = "58"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_1
+	icon_state = "41"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_2
+	icon_state = "42"
+
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_3
+	icon_state = "43"

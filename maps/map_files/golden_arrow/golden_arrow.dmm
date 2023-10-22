@@ -4400,8 +4400,8 @@
 	},
 /area/almayer/hallways/port_hallway)
 "Lg" = (
-/obj/docking_port/stationary/marine_dropship/almayer_hangar_1,
 /obj/effect/landmark/observer_start,
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar,
 /turf/open/floor/plating,
 /area/almayer/hallways/hangar)
 "Lh" = (

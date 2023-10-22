@@ -112,6 +112,16 @@
 	name = "Normandy"
 	id = DROPSHIP_NORMANDY
 
+/obj/docking_port/mobile/marine_dropship/movie
+	width = 9
+	height = 18
+
+	dwidth = 4
+	dheight = 8
+
+	name = "\improper UD-4M Cheyenne Dropship"
+	id = DROPSHIP_MOVIE
+
 /obj/docking_port/mobile/marine_dropship/check()
 	. = ..()
 
@@ -260,6 +270,18 @@
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/normandy
 
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar
+	width = 9
+	height = 18
+
+	dwidth = 4
+	dheight = 8
+
+	name = "\improper UD-4M Cheyenne Dropship"
+	id = GOLDEN_ARROW_DROPSHIP
+	auto_open = TRUE
+	roundstart_template = /datum/map_template/shuttle/movie
+
 /obj/docking_port/stationary/marine_dropship/crash_site
 	auto_open = TRUE
 
@@ -292,3 +314,7 @@
 /datum/map_template/shuttle/normandy
 	name = "Normandy"
 	shuttle_id = DROPSHIP_NORMANDY
+
+/datum/map_template/shuttle/movie
+	name = "\improper UD-4M Cheyenne Dropship"
+	shuttle_id = DROPSHIP_MOVIE

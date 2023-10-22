@@ -274,6 +274,13 @@
 /turf/closed/shuttle/dropship2/tornado/typhoon
 	name = "\improper Typhoon"
 
+/turf/closed/shuttle/dropship2/movie
+	name = "\improper UD-4M Cheyenne Dropship"
+	icon = 'icons/turf/dropship4.dmi'
+
+/turf/closed/shuttle/dropship2/movie/transparent
+	opacity = FALSE
+
 /turf/closed/shuttle/escapepod
 	name = "wall"
 	icon = 'icons/turf/escapepods.dmi'

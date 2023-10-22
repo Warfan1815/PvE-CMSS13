@@ -1,0 +1,783 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "16"
+	},
+/area/shuttle/drop2/sulaco)
+"aL" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "19"
+	},
+/area/shuttle/drop2/sulaco)
+"aV" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "34"
+	},
+/area/shuttle/drop2/sulaco)
+"di" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"dX" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_6,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"ee" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/effect/decal/siding,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"fd" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_south_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"gY" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "82"
+	},
+/area/shuttle/drop2/sulaco)
+"hz" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "79"
+	},
+/area/shuttle/drop2/sulaco)
+"hU" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "81"
+	},
+/area/shuttle/drop2/sulaco)
+"ix" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "51"
+	},
+/area/shuttle/drop2/sulaco)
+"ju" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"jv" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "13"
+	},
+/area/shuttle/drop2/sulaco)
+"jE" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_3,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"jK" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "4"
+	},
+/area/shuttle/drop2/sulaco)
+"jQ" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "20"
+	},
+/area/shuttle/drop2/sulaco)
+"ke" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_cockpit_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"lg" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "22"
+	},
+/area/shuttle/drop2/sulaco)
+"lx" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "68"
+	},
+/area/shuttle/drop2/sulaco)
+"lA" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_5,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"mt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8;
+	dir = 8
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"mG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8;
+	dir = 8
+	},
+/obj/item/device/radio/intercom/normandy{
+	layer = 3.5;
+	pixel_x = 32
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"nf" = (
+/turf/closed/shuttle/dropship2/movie/transparent,
+/area/shuttle/drop2/sulaco)
+"nk" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "52"
+	},
+/area/shuttle/drop2/sulaco)
+"nr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4
+	},
+/obj/structure/machinery/light,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"nB" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin22"
+	},
+/area/shuttle/drop2/sulaco)
+"nM" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "64"
+	},
+/area/shuttle/drop2/sulaco)
+"oo" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "62"
+	},
+/area/shuttle/drop2/sulaco)
+"ov" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "59"
+	},
+/area/shuttle/drop2/sulaco)
+"oE" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_4,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"pK" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"qm" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "14"
+	},
+/area/shuttle/drop2/sulaco)
+"rw" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_5,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"sE" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "36"
+	},
+/area/shuttle/drop2/sulaco)
+"sT" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_3,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"th" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_x = 1;
+	pixel_y = 24
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin17"
+	},
+/area/shuttle/drop2/sulaco)
+"uR" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin19"
+	},
+/area/shuttle/drop2/sulaco)
+"vb" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_x = 1;
+	pixel_y = 24
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin16"
+	},
+/area/shuttle/drop2/sulaco)
+"vk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4
+	},
+/obj/structure/machinery/camera/autoname/almayer/dropship_two{
+	dir = 4;
+	pixel_x = -16
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"vs" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "47"
+	},
+/area/shuttle/drop2/sulaco)
+"wc" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_north_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"ws" = (
+/obj/structure/bed/chair/dropship/pilot,
+/obj/item/device/radio/intercom/normandy{
+	layer = 3.5;
+	pixel_x = -22;
+	pixel_y = 26
+	},
+/obj/structure/transmitter{
+	pixel_y = 30;
+	pixel_x = 21;
+	phone_category = "Dropship";
+	phone_id = "Normandy"
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/machinery/computer/shuttle/dropship/flight{
+	alpha = 0
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"yB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4
+	},
+/obj/item/device/radio/intercom/normandy{
+	layer = 3.5;
+	pixel_x = -32
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"yZ" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_south_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"zv" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "17"
+	},
+/area/shuttle/drop2/sulaco)
+"Am" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_south_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"AO" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_south_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"Bk" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin20"
+	},
+/area/shuttle/drop2/sulaco)
+"Bz" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "73"
+	},
+/area/shuttle/drop2/sulaco)
+"BR" = (
+/turf/template_noop,
+/area/template_noop)
+"Cf" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "71"
+	},
+/area/shuttle/drop2/sulaco)
+"CJ" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_cockpit_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"Dc" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "21"
+	},
+/area/shuttle/drop2/sulaco)
+"DO" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "63"
+	},
+/area/shuttle/drop2/sulaco)
+"EF" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "24"
+	},
+/area/shuttle/drop2/sulaco)
+"Go" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8;
+	dir = 8
+	},
+/obj/item/device/radio/intercom/normandy{
+	layer = 3.5;
+	pixel_x = 32
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin17"
+	},
+/area/shuttle/drop2/sulaco)
+"GL" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "74"
+	},
+/area/shuttle/drop2/sulaco)
+"GZ" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/right_cockpit_wing_2,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"Hi" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "57"
+	},
+/area/shuttle/drop2/sulaco)
+"HG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"HH" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_2{
+	pixel_y = -32
+	},
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "49"
+	},
+/area/shuttle/drop2/sulaco)
+"HT" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "23"
+	},
+/area/shuttle/drop2/sulaco)
+"HW" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "46"
+	},
+/area/shuttle/drop2/sulaco)
+"Ig" = (
+/turf/open/shuttle/dropship{
+	icon_state = "grate_rasputin_2"
+	},
+/area/shuttle/drop2/sulaco)
+"It" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "26"
+	},
+/area/shuttle/drop2/sulaco)
+"IQ" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "60"
+	},
+/area/shuttle/drop2/sulaco)
+"Lj" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_cockpit_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"MD" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/north_wing,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"NU" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin21"
+	},
+/area/shuttle/drop2/sulaco)
+"OL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin19"
+	},
+/area/shuttle/drop2/sulaco)
+"Pg" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "65"
+	},
+/area/shuttle/drop2/sulaco)
+"Qs" = (
+/obj/structure/shuttle/part/dropship_movie/right_port,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"RL" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "69"
+	},
+/area/shuttle/drop2/sulaco)
+"SD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/siding{
+	pixel_y = 3
+	},
+/obj/docking_port/mobile/marine_dropship/movie,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin18"
+	},
+/area/shuttle/drop2/sulaco)
+"SW" = (
+/obj/structure/machinery/door/airlock/dropship_hatch/two{
+	id = "starboard_door"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"Tb" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/cockpit_wing_1,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"Te" = (
+/obj/structure/machinery/door/airlock/dropship_hatch/two{
+	dir = 8;
+	id = "starboard_door"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"TU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8;
+	dir = 8
+	},
+/obj/structure/machinery/camera/autoname/almayer/dropship_two{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"Uk" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_3{
+	pixel_y = -32
+	},
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "50"
+	},
+/area/shuttle/drop2/sulaco)
+"Ux" = (
+/turf/open/shuttle/dropship{
+	icon_state = "grate_rasputin_1"
+	},
+/area/shuttle/drop2/sulaco)
+"UZ" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "18"
+	},
+/area/shuttle/drop2/sulaco)
+"Vu" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_6,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"VK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8;
+	dir = 8
+	},
+/obj/structure/machinery/light,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"WG" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "37"
+	},
+/area/shuttle/drop2/sulaco)
+"WL" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "80"
+	},
+/area/shuttle/drop2/sulaco)
+"WO" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "25"
+	},
+/area/shuttle/drop2/sulaco)
+"WQ" = (
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "29"
+	},
+/area/shuttle/drop2/sulaco)
+"WT" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/middle_feature_1{
+	pixel_y = -32
+	},
+/turf/closed/shuttle/dropship2/movie/transparent{
+	icon_state = "48"
+	},
+/area/shuttle/drop2/sulaco)
+"WX" = (
+/obj/structure/shuttle/part/dropship_movie/left_port,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"Xm" = (
+/turf/closed/shuttle/dropship2/movie{
+	icon_state = "72"
+	},
+/area/shuttle/drop2/sulaco)
+"Xo" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4
+	},
+/obj/item/device/radio/intercom/normandy{
+	layer = 3.5;
+	pixel_x = -32
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin16"
+	},
+/area/shuttle/drop2/sulaco)
+"XC" = (
+/obj/structure/machinery/door/airlock/hatch/cockpit/two,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"XL" = (
+/obj/structure/shuttle/part/dropship_movie/transparent/left_north_wing_4,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+
+(1,1,1) = {"
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+AO
+Cf
+fd
+BR
+BR
+BR
+BR
+"}
+(2,1,1) = {"
+XL
+BR
+BR
+BR
+jQ
+jv
+HW
+Bz
+WL
+SW
+WL
+sE
+Xm
+lx
+WX
+BR
+BR
+BR
+"}
+(3,1,1) = {"
+rw
+BR
+BR
+BR
+Dc
+qm
+vs
+GL
+Xo
+Bk
+vk
+HG
+yB
+nr
+oo
+BR
+BR
+BR
+"}
+(4,1,1) = {"
+Vu
+jE
+di
+ju
+lg
+zv
+WT
+GL
+th
+OL
+Ux
+Ux
+Ux
+Ux
+DO
+ov
+CJ
+Lj
+"}
+(5,1,1) = {"
+MD
+jK
+nf
+WQ
+HT
+ac
+HH
+GL
+ee
+SD
+nB
+nB
+nB
+uR
+XC
+ws
+Hi
+Tb
+"}
+(6,1,1) = {"
+dX
+sT
+wc
+pK
+EF
+zv
+Uk
+GL
+vb
+OL
+Ig
+Ig
+Ig
+Ig
+nM
+IQ
+GZ
+ke
+"}
+(7,1,1) = {"
+lA
+BR
+BR
+BR
+WO
+UZ
+ix
+GL
+Go
+NU
+TU
+mt
+mG
+VK
+Pg
+BR
+BR
+BR
+"}
+(8,1,1) = {"
+oE
+BR
+BR
+BR
+It
+aL
+nk
+hz
+hU
+Te
+hU
+WG
+gY
+RL
+Qs
+BR
+BR
+BR
+"}
+(9,1,1) = {"
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+yZ
+aV
+Am
+BR
+BR
+BR
+BR
+"}
