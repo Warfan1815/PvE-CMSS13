@@ -391,6 +391,15 @@
 	icon_state = "reinforced"
 	health = 500
 
+/obj/structure/girder/window_frame
+	icon_state = "window_girder"
+
+/obj/structure/girder/window_frame/displaced
+	icon_state = "window_displaced"
+
+/obj/structure/girder/window_frame/reinforced
+	icon_state = "window_reinforced"
+	health = 500
 
 #undef STATE_STANDARD
 #undef STATE_DISMANTLING
