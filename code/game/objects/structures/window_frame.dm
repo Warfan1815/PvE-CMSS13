@@ -160,10 +160,25 @@
 	if(health <= 0)
 		deconstruct()
 
-/obj/structure/window_frame/deconstruct(disassembled = TRUE)
-	if(disassembled)
-		new buildstacktype(loc, buildstackamount)
+/obj/structure/window_frame/deconstruct(devastated = 0, explode = 0)
+	if(unslashable && unacidable) //Hull is literally invincible
+		return
+	if(devastated)
+		make_girder(TRUE)
+	else if (explode)
+		make_girder(TRUE)
+	else
+		make_girder(FALSE)
+
 	return ..()
+
+/obj/structure/window_frame/make_girder(destroyed_girder = FALSE)
+	var/obj/structure/girder/G = new /obj/structure/girder(src)
+	G.icon_state = "girder[junction]"
+	G.original = src.type
+
+	if(destroyed_girder)
+		G.dismantle()
 
 /obj/structure/window_frame/almayer
 	icon_state = "alm_window0_frame"
