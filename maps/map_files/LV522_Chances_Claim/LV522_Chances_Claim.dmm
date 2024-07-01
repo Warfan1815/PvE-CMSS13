@@ -26878,8 +26878,7 @@
 "kNM" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1;
-	name = "\improper Dormitories";
-	welded = null
+	name = "\improper Dormitories"
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/corsat{
@@ -51549,9 +51548,7 @@
 /area/lv522/outdoors/colony_streets/north_east_street)
 "tNT" = (
 /obj/structure/prop/vehicles/crawler{
-	icon_state = "crawler_covered_bed";
-	unacidable = 0;
-	unslashable = 0
+	icon_state = "crawler_covered_bed"
 	},
 /turf/open/floor/corsat{
 	icon_state = "plate"
