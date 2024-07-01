@@ -6,7 +6,7 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"aj" = (
+"ah" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
@@ -17,21 +17,11 @@
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "am" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = -12
-	},
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2
-	},
-/turf/open/floor/strata,
-/area/space)
-"ap" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/platform/strata/metal{
-	climbable = 0
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
 	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "ay" = (
 /obj/effect/decal/cleanable/dirt,
@@ -47,52 +37,23 @@
 /obj/structure/ladder,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"aO" = (
-/obj/structure/platform_decoration{
-	dir = 8;
-	pixel_y = -16
+"aN" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
 	},
-/obj/structure/platform{
-	dir = 4;
-	layer = 2.7;
-	pixel_y = 16
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"aR" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e"
 	},
-/turf/open/floor/plating/plating_catwalk/strata,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "aT" = (
 /obj/structure/reagent_dispensers/fueltank/gas/hydrogen,
 /turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"bi" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -16;
-	pixel_y = -16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 16;
-	pixel_y = -16
-	},
-/obj/structure/holohoop{
-	dir = 8
-	},
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 16
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
 /area/space)
 "bj" = (
 /obj/structure/platform,
@@ -101,35 +62,40 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"bn" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "bp" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
+"bw" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "bz" = (
 /obj/structure/machinery/light/double/blue,
 /turf/open/floor/strata,
-/area/space)
-"bE" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "bM" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -138,35 +104,9 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"bW" = (
-/obj/structure/ladder{
-	climb_delay = 10
-	},
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "bY" = (
 /turf/closed/shuttle/elevator{
 	dir = 10
-	},
-/area/space)
-"ca" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/obj/structure/ladder{
-	climb_delay = 10
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
 	},
 /area/space)
 "cf" = (
@@ -179,11 +119,10 @@
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "ck" = (
-/obj/structure/platform/strata/metal{
-	climbable = 0
+/obj/structure/bed/chair{
+	dir = 1
 	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
+/turf/open/floor/strata,
 /area/space)
 "cz" = (
 /turf/open/floor/strata{
@@ -231,23 +170,6 @@
 /obj/item/weapon/dart/green,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"cY" = (
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "df" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ashtray/bronze{
@@ -258,49 +180,19 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"di" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 4;
-	climbable = 0
-	},
-/obj/structure/platform/strata/metal{
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "dj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/vending/cola,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"ds" = (
+"dr" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2
+	},
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3";
-	pixel_x = 6;
-	pixel_y = 4
+	pixel_y = -12
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/turf/open/floor/strata,
-/area/space)
-"dw" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 4;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
@@ -311,6 +203,16 @@
 	dir = 1
 	},
 /turf/open/auto_turf/shale/layer1,
+/area/space)
+"dM" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "dR" = (
 /obj/structure/platform/strata/metal{
@@ -327,6 +229,23 @@
 	},
 /obj/structure/platform_decoration/strata/metal{
 	dir = 8
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"dZ" = (
+/obj/structure/platform_decoration{
+	dir = 1
+	},
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
+/area/space)
+"ea" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
@@ -347,18 +266,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"eq" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2;
-	pixel_y = 23
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 2;
-	pixel_y = -4
-	},
-/turf/open/floor/strata,
-/area/space)
 "ew" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/random,
@@ -366,14 +273,6 @@
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"ex" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "eD" = (
 /obj/item/lightstick/red/spoke/planted{
@@ -388,26 +287,59 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"eX" = (
+"eR" = (
 /obj/structure/platform/strata/metal{
-	dir = 8
+	dir = 1;
+	climbable = 0
 	},
-/obj/structure/platform/strata/metal,
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4;
+	climbable = 0
+	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"fb" = (
-/obj/structure/machinery/light/double/blue{
-	dir = 4
-	},
 /turf/open/floor/strata{
-	color = "#5e5d5d";
-	icon_state = "multi_tiles"
+	icon_state = "floor3"
 	},
+/area/space)
+"fa" = (
+/obj/structure/platform/strata/metal{
+	dir = 1;
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform/strata/metal{
+	dir = 1;
+	climbable = 0
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "fm" = (
 /obj/structure/machinery/door/poddoor/almayer/open,
 /turf/closed/wall/strata_outpost/reinforced/hull,
+/area/space)
+"fu" = (
+/obj/structure/barricade/handrail{
+	dir = 1
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"fv" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 16
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "fz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -428,19 +360,22 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"fG" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "fH" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/prop/magazine/boots/n054,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
-/area/space)
-"fI" = (
-/obj/structure/prop/souto_land/streamer{
-	pixel_y = -8;
-	pixel_x = 1
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "fP" = (
 /obj/structure/blocker/invisible_wall,
@@ -451,16 +386,6 @@
 	},
 /turf/open/floor/strata{
 	icon_state = "floor3"
-	},
-/area/space)
-"fR" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal,
-/turf/closed/wall/strata_outpost_ribbed{
-	unacidable = 1;
-	damage_cap = 500000
 	},
 /area/space)
 "fW" = (
@@ -493,17 +418,6 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"gF" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 4
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -2
-	},
-/turf/open/floor/strata,
-/area/space)
 "gK" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -511,35 +425,6 @@
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"gM" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"gS" = (
-/obj/structure/platform/strata/metal{
-	dir = 1;
-	climbable = 0
-	},
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 4;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
 /area/space)
 "gT" = (
 /obj/structure/cable/heavyduty{
@@ -567,14 +452,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"he" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "hh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet,
@@ -587,33 +464,8 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"hO" = (
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"hQ" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "hR" = (
 /turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"hX" = (
-/obj/structure/platform/strata/metal{
-	climbable = 0
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "hY" = (
 /obj/item/weapon/dart/green,
@@ -664,19 +516,28 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"iz" = (
+/obj/structure/platform/strata/metal{
+	dir = 4;
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"iE" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform/strata/metal{
+	dir = 1;
+	climbable = 0
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "iR" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /obj/effect/decal/strata_decals/catwalk/prison,
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"jb" = (
-/obj/item/lightstick/red/spoke/planted{
-	pixel_x = -14;
-	pixel_y = -1
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "jj" = (
 /obj/structure/platform/strata/metal{
@@ -692,14 +553,25 @@
 	},
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"jx" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/turf/open/floor/strata{
+	color = "#5e5d5d";
+	icon_state = "multi_tiles"
+	},
+/area/space)
 "jC" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/platform/strata/metal{
-	dir = 1
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
 	},
-/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "jE" = (
 /obj/item/paper_bin{
@@ -720,30 +592,16 @@
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/strata,
 /area/space)
-"jF" = (
-/obj/structure/platform_decoration/strata/metal{
-	dir = 1
+"jU" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 4
 	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -2
 	},
-/area/space)
-"jQ" = (
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"ka" = (
-/obj/structure/platform{
-	dir = 8;
-	layer = 2.8;
-	pixel_y = 15
-	},
-/obj/structure/platform_decoration{
-	dir = 4;
-	pixel_y = -16
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
+/turf/open/floor/strata,
 /area/space)
 "kc" = (
 /obj/structure/filingcabinet,
@@ -759,6 +617,12 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"kz" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	dir = 2
+	},
+/turf/open/floor/strata,
+/area/space)
 "kD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/landinglight/ds1/spoke,
@@ -766,6 +630,10 @@
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"kE" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "kI" = (
 /obj/structure/largecrate/supply/weapons/pistols,
@@ -805,20 +673,18 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"lb" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3"
-	},
-/turf/open/floor/strata,
-/area/space)
 "lf" = (
 /turf/closed/shuttle{
 	dir = 1;
 	icon_state = "pwall"
 	},
+/area/space)
+"lj" = (
+/obj/item/lightstick/red/spoke/planted{
+	pixel_x = 13;
+	pixel_y = -1
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "lk" = (
 /obj/structure/surface/table/reinforced/black,
@@ -840,16 +706,6 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"lD" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "lS" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -868,18 +724,20 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"mf" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+"mc" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2
+	},
 /turf/open/floor/strata{
-	color = "#5e5d5d";
-	icon_state = "multi_tiles"
+	icon_state = "floor3"
 	},
 /area/space)
-"mh" = (
+"mm" = (
 /obj/structure/platform/strata/metal,
-/obj/structure/platform_decoration/strata/metal{
-	dir = 4
+/obj/structure/platform/strata/metal{
+	dir = 8
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "mu" = (
@@ -897,11 +755,28 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"mQ" = (
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	climbable = 0
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "mV" = (
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"na" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 16
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "nd" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -912,6 +787,16 @@
 	},
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/shale/layer1,
+/area/space)
+"nh" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "nk" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -927,37 +812,8 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"nt" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = -12
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"nE" = (
-/obj/structure/platform{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
 "nH" = (
 /turf/closed/wall/strata_outpost_ribbed,
-/area/space)
-"nL" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
 /area/space)
 "nO" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
@@ -978,14 +834,16 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"ol" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 16
+"oa" = (
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
 	},
+/obj/structure/platform/strata/metal{
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
+	icon_state = "floor3"
 	},
 /area/space)
 "or" = (
@@ -993,24 +851,20 @@
 /obj/item/trash/cigbutt,
 /turf/open/floor/strata,
 /area/space)
-"oB" = (
-/obj/structure/platform_decoration/strata/metal,
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "oD" = (
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"oT" = (
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"pp" = (
-/obj/structure/platform_decoration/strata/metal{
-	dir = 1
+"pl" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4
 	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/ladder{
+	climb_delay = 10
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "pz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1067,10 +921,18 @@
 /obj/structure/machinery/computer/telecomms/traffic,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"pX" = (
-/obj/structure/platform/strata/metal,
+"qf" = (
+/obj/structure/platform/strata/metal{
+	dir = 1;
+	climbable = 0
+	},
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/plating/plating_catwalk/strata,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "qi" = (
 /obj/structure/machinery/door_control{
@@ -1123,15 +985,7 @@
 /area/space)
 "qB" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3;
-	dir = 8
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "qD" = (
 /obj/structure/platform/strata/metal{
@@ -1142,17 +996,16 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"qE" = (
-/obj/structure/platform/strata/metal{
-	dir = 4
+"qN" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3
 	},
-/obj/structure/prop/souto_land/streamer,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"qL" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/platform/strata/metal,
-/turf/open/auto_turf/shale/layer1,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "qP" = (
 /obj/structure/surface/table/reinforced/black,
@@ -1180,38 +1033,73 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"rc" = (
-/obj/structure/prop/invuln/ice_prefab/roof_greeble{
-	icon_state = "vent4";
-	pixel_y = 5
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "rd" = (
 /obj/structure/machinery/disposal,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
 /area/space)
-"re" = (
-/obj/structure/platform_decoration/strata/metal,
-/obj/structure/platform/strata/metal{
-	dir = 4
+"rn" = (
+/obj/structure/barricade/handrail{
+	dir = 1
 	},
-/obj/structure/platform/strata/metal,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "rp" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space)
-"ru" = (
-/obj/item/lightstick/red/spoke/planted{
-	pixel_x = 14;
-	pixel_y = -1
+"rv" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8;
+	icon_state = "p_stair_full";
+	layer = 3
 	},
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/ladder{
+	climb_delay = 10
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"rz" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 16
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
+/area/space)
+"rB" = (
+/obj/structure/platform{
+	dir = 8;
+	layer = 2.8;
+	pixel_y = 15
+	},
+/obj/structure/platform_decoration{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"rC" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "rD" = (
 /obj/structure/platform{
@@ -1254,35 +1142,18 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"rT" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	name = "Vehicle Underground Garage Blastdoor"
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
 "si" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
 	dir = 1
 	},
 /turf/open/floor/strata,
 /area/space)
-"sp" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4
+"sm" = (
+/obj/structure/platform{
+	dir = 1;
+	pixel_y = 16
 	},
-/obj/structure/ladder{
-	climb_delay = 10
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"sw" = (
-/obj/structure/barricade/handrail{
-	dir = 1
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "sz" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -1300,44 +1171,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"sN" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -16;
-	pixel_y = -16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 16;
-	pixel_y = -16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = -12
-	},
-/obj/structure/holohoop{
-	dir = 4
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"sV" = (
-/obj/structure/platform_decoration/strata/metal{
-	dir = 4
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "ta" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
@@ -1348,11 +1181,21 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"tf" = (
+"tc" = (
+/obj/structure/ladder{
+	climb_delay = 10
+	},
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
-	dir = 1
+	dir = 8
 	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"tj" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform/strata/metal,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "tm" = (
@@ -1361,37 +1204,6 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"tz" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	name = "Vehicle Underground Garage Blastdoor"
-	},
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
-"tH" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = -12
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = -12
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
-/area/space)
-"tI" = (
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "tN" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -1399,20 +1211,16 @@
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"tQ" = (
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 8;
-	layer = 2.8
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "tT" = (
 /obj/structure/platform_decoration/strata/metal,
 /turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"tU" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 8
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "tV" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -1423,6 +1231,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"tX" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "ub" = (
 /obj/structure/prop/broken_arcade,
@@ -1446,6 +1261,20 @@
 /obj/structure/closet,
 /obj/item/clothing/under/colonist,
 /turf/open/floor/strata,
+/area/space)
+"uK" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 1
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"uN" = (
+/obj/structure/prop/souto_land/streamer{
+	pixel_y = -4;
+	pixel_x = 1
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "uO" = (
 /obj/structure/closet,
@@ -1487,12 +1316,19 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"vg" = (
-/obj/structure/platform/strata/metal{
-	dir = 1
+"ve" = (
+/obj/item/lightstick/red/spoke/planted{
+	pixel_x = 14;
+	pixel_y = -1
 	},
-/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
+/area/space)
+"vk" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+/turf/open/floor/strata{
+	color = "#5e5d5d";
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "vo" = (
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -1505,6 +1341,18 @@
 	dir = 4
 	},
 /obj/structure/platform/strata/metal,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"vv" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"vx" = (
+/obj/structure/platform_decoration/strata/metal,
+/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "vG" = (
@@ -1528,16 +1376,6 @@
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
-"vO" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = -12
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "vP" = (
 /obj/structure/platform_decoration/strata/metal,
 /turf/closed/wall/strata_outpost_ribbed{
@@ -1557,31 +1395,22 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"we" = (
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
+"wh" = (
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
 	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space)
-"wf" = (
-/obj/structure/platform/strata/metal,
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
+"wi" = (
+/obj/structure/prop/souto_land/streamer{
+	pixel_y = -8;
+	pixel_x = 1
 	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
-"wm" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = -12
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 16
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
+"wk" = (
+/obj/structure/platform,
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "wv" = (
 /obj/structure/platform/strata/metal{
@@ -1605,6 +1434,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"wJ" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "wL" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 8
@@ -1620,30 +1456,28 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "wR" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -16;
-	pixel_y = -16
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	climbable = 0
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -16;
-	pixel_y = 16
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 16;
-	pixel_y = 16
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	climbable = 0
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 16;
-	pixel_y = -16
-	},
-/obj/item/toy/beach_ball/holoball,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
+/area/space)
+"xd" = (
+/obj/structure/platform/strata/metal{
+	dir = 4;
+	climbable = 0
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "xl" = (
 /turf/closed/shuttle/elevator{
@@ -1671,17 +1505,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"xG" = (
-/obj/structure/blocker/invisible_wall,
-/obj/structure/stairs/perspective{
-	color = "#6b675e";
-	dir = 6;
-	icon_state = "p_stair_full"
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "xN" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
@@ -1692,19 +1515,25 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"yg" = (
-/obj/structure/prop/invuln/ice_prefab/roof_greeble{
-	icon_state = "windsock"
+"yz" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8;
+	layer = 2.8
 	},
 /turf/open/floor/strata{
-	icon_state = "floor3"
+	dir = 6;
+	icon_state = "multi_tiles"
 	},
 /area/space)
 "yT" = (
-/obj/structure/bed/chair{
-	dir = 1
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
 	},
-/turf/open/floor/strata,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "yY" = (
 /obj/structure/machinery/light/double/blue{
@@ -1714,10 +1543,14 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"yZ" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
+"zd" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "zk" = (
 /obj/structure/platform_decoration{
@@ -1762,12 +1595,49 @@
 	icon_state = "floor3"
 	},
 /area/space)
+"zu" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"zx" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
+/area/space)
+"zD" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "zI" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"zL" = (
+/obj/item/lightstick/red/spoke/planted{
+	pixel_x = -14;
+	pixel_y = -1
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
@@ -1814,6 +1684,17 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"Aa" = (
+/obj/structure/stairs/perspective{
+	color = "#6b675e";
+	dir = 10;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "Ac" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -1828,26 +1709,6 @@
 	dir = 8
 	},
 /turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"Al" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/prop/souto_land/streamer{
-	pixel_y = -10;
-	pixel_x = 1
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"At" = (
-/obj/structure/blocker/invisible_wall,
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
 /area/space)
 "AF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1874,6 +1735,13 @@
 	icon_state = "floor3"
 	},
 /area/space)
+"AX" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "AZ" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal,
@@ -1889,28 +1757,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"Bd" = (
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"Bm" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3;
-	dir = 8
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "Bn" = (
 /obj/structure/platform{
 	dir = 8;
@@ -1925,6 +1771,10 @@
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"Bt" = (
+/obj/structure/fence,
+/turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space)
 "Bw" = (
 /obj/item/reagent_container/food/drinks/bottle/rum{
@@ -1948,6 +1798,12 @@
 	},
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/strata,
+/area/space)
+"By" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "Vehicle Underground Garage Blastdoor"
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space)
 "BC" = (
 /obj/structure/largecrate/random{
@@ -1983,16 +1839,6 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"BX" = (
-/obj/structure/platform/strata/metal{
-	dir = 4
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "Cc" = (
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/auto_turf/sand_white/layer0,
@@ -2003,37 +1849,9 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"Ck" = (
-/obj/structure/prop/souto_land/streamer{
-	pixel_y = -2;
-	pixel_x = 1
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "Cl" = (
 /obj/structure/ladder,
 /turf/open/floor/strata,
-/area/space)
-"Cm" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/platform/strata/metal{
-	dir = 4
-	},
-/obj/structure/platform/strata/metal,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"Co" = (
-/obj/structure/stairs/perspective{
-	color = "#6b675e";
-	dir = 10;
-	icon_state = "p_stair_full"
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
 /area/space)
 "Cp" = (
 /obj/structure/dartboard{
@@ -2047,12 +1865,6 @@
 	icon_state = "door_locked"
 	},
 /turf/open/floor/strata,
-/area/space)
-"Ct" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e"
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "CH" = (
 /obj/structure/bed/chair,
@@ -2068,6 +1880,24 @@
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/strata{
 	icon_state = "floor3"
+	},
+/area/space)
+"CR" = (
+/obj/structure/prop/invuln/ice_prefab/roof_greeble{
+	icon_state = "windsock"
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"CS" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = -12
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
 	},
 /area/space)
 "Da" = (
@@ -2089,48 +1919,83 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "De" = (
-/obj/structure/platform_decoration/strata/metal,
-/obj/structure/platform/strata/metal,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
-"Dn" = (
+"Df" = (
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/turf/open/auto_turf/sand_white/layer0,
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
-"Dv" = (
+"Dg" = (
 /obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2;
-	pixel_y = 21
+	pixel_x = -12
 	},
 /obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -2;
-	pixel_y = -4
+	icon_state = "road_edge_decal3";
+	pixel_y = 4
 	},
 /turf/open/floor/strata,
+/area/space)
+"Dm" = (
+/obj/structure/platform/strata/metal{
+	dir = 1;
+	climbable = 0
+	},
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"Dt" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/item/toy/beach_ball/holoball,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "Dw" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/microwave{
 	pixel_y = 6
 	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"Dz" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
@@ -2157,6 +2022,16 @@
 /obj/effect/decal/strata_decals/catwalk/prison,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"Eg" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "Ep" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/heavyduty{
@@ -2173,15 +2048,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Eu" = (
-/obj/structure/platform_decoration{
-	dir = 1
-	},
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "Ev" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform/strata/metal{
@@ -2195,15 +2061,21 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"Ey" = (
+"Ew" = (
 /obj/structure/platform/strata/metal{
-	dir = 1
+	climbable = 0
 	},
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
+/area/space)
+"Ez" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2
+	},
+/turf/open/floor/strata,
 /area/space)
 "EE" = (
 /obj/structure/prop/dam/crane{
@@ -2216,12 +2088,16 @@
 "EL" = (
 /turf/closed/void,
 /area/space)
-"EM" = (
-/obj/structure/prop/souto_land/streamer{
-	pixel_y = -4;
-	pixel_x = 1
+"EY" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
 	},
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "Fa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2239,17 +2115,6 @@
 	},
 /turf/open/floor/strata{
 	icon_state = "floor3"
-	},
-/area/space)
-"Fe" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/platform/strata/metal,
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
 	},
 /area/space)
 "Fm" = (
@@ -2277,12 +2142,14 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"Fs" = (
-/obj/structure/platform{
-	dir = 8;
-	layer = 2.8
+"Fp" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
 	},
-/turf/open/floor/plating/plating_catwalk/strata,
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "Fu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2345,6 +2212,10 @@
 /obj/structure/prop/structure_lattice{
 	color = "#A9A9A9"
 	},
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	climbable = 0
+	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
@@ -2377,12 +2248,17 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Gq" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
+"Gv" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2;
+	pixel_y = 21
 	},
-/obj/structure/platform_decoration/strata/metal,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -2;
+	pixel_y = -4
+	},
+/turf/open/floor/strata,
 /area/space)
 "Gw" = (
 /obj/structure/bed/chair,
@@ -2396,24 +2272,24 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"GC" = (
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "GD" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = -12
+/obj/structure/platform/strata/metal{
+	dir = 1
 	},
 /turf/open/floor/strata{
 	dir = 6;
 	icon_state = "multi_tiles"
+	},
+/area/space)
+"GJ" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8;
+	icon_state = "p_stair_full";
+	layer = 3
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
 	},
 /area/space)
 "GL" = (
@@ -2425,18 +2301,26 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"GM" = (
-/obj/structure/platform/strata/metal{
-	dir = 4;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "GS" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 1
 	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"Hb" = (
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4;
+	climbable = 0
+	},
+/obj/structure/platform/strata/metal{
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
@@ -2482,13 +2366,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Ht" = (
-/obj/item/lightstick/red/spoke/planted{
-	pixel_x = -15;
-	pixel_y = 15
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
 "Hu" = (
 /turf/open/floor/strata,
 /area/space)
@@ -2517,21 +2394,43 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"HW" = (
-/obj/structure/platform/strata/metal{
-	dir = 4;
-	climbable = 0
+"HP" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
 	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"HY" = (
-/obj/structure/platform/strata/metal{
-	dir = 1
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/holohoop{
+	dir = 8
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
 	},
 /turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
+	icon_state = "floor3"
 	},
+/area/space)
+"HU" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "Ib" = (
 /obj/structure/cable/heavyduty{
@@ -2542,11 +2441,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"Ic" = (
-/obj/structure/blocker/invisible_wall,
-/obj/structure/platform_decoration/strata/metal,
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "Ih" = (
 /obj/structure/bed/chair{
@@ -2572,6 +2466,15 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
+"Ir" = (
+/obj/structure/prop/invuln/ice_prefab/roof_greeble{
+	icon_state = "vent4";
+	pixel_y = 5
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "Iu" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -2581,7 +2484,157 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"IT" = (
+"IC" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/platform/strata/metal,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"Jk" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"Jn" = (
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
+/area/space)
+"Js" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -2
+	},
+/turf/open/floor/strata,
+/area/space)
+"Ju" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 4
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 2
+	},
+/turf/open/floor/strata,
+/area/space)
+"Jw" = (
+/turf/closed/shuttle/elevator{
+	dir = 6
+	},
+/area/space)
+"JD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata,
+/area/space)
+"JK" = (
+/obj/structure/prop/invuln/ice_prefab/roof_greeble{
+	icon_state = "vent5";
+	pixel_y = 5
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"JM" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2;
+	pixel_y = 23
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 2;
+	pixel_y = -4
+	},
+/turf/open/floor/strata,
+/area/space)
+"JT" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/prop/souto_land/streamer{
+	pixel_y = -10;
+	pixel_x = 1
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"JZ" = (
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
+/obj/structure/platform/strata/metal,
+/turf/closed/wall/strata_outpost_ribbed{
+	unacidable = 1;
+	damage_cap = 500000
+	},
+/area/space)
+"Ka" = (
+/obj/item/prop/magazine/dirty/torn/alt{
+	pixel_y = 32
+	},
+/turf/open/floor/strata,
+/area/space)
+"Kd" = (
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"Ks" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/open/floor/strata,
+/area/space)
+"Kt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"Ku" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost/reinforced,
+/area/space)
+"Kv" = (
+/obj/structure/prop/structure_lattice{
+	color = "#A9A9A9"
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4;
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"KD" = (
+/obj/structure/platform_decoration{
+	dir = 8;
+	pixel_y = -16
+	},
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7;
+	pixel_y = 16
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"KK" = (
 /obj/structure/platform{
 	dir = 4;
 	layer = 2.7
@@ -2599,95 +2652,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Jk" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"Jn" = (
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
-"Jw" = (
-/turf/closed/shuttle/elevator{
-	dir = 6
-	},
-/area/space)
-"JD" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
-/area/space)
-"JJ" = (
-/obj/structure/blocker/invisible_wall,
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"JP" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"Ka" = (
-/obj/item/prop/magazine/dirty/torn/alt{
-	pixel_y = 32
-	},
-/turf/open/floor/strata,
-/area/space)
-"Kd" = (
-/obj/structure/platform/strata/metal,
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"Kt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/random,
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"Ku" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/strata_outpost/reinforced,
-/area/space)
-"KB" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"KD" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4
-	},
-/obj/structure/ladder{
-	climb_delay = 10
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "KM" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -2703,26 +2667,21 @@
 /turf/open/floor/strata,
 /area/space)
 "KQ" = (
-/obj/structure/platform/strata/metal{
-	dir = 1;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/platform/strata/metal{
-	dir = 1;
-	climbable = 0
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"KX" = (
-/obj/structure/platform/strata/metal{
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3;
 	dir = 8
 	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
+	icon_state = "floor3"
 	},
+/area/space)
+"KS" = (
+/obj/structure/platform_decoration/strata/metal,
+/obj/structure/platform/strata/metal,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "KZ" = (
 /obj/structure/platform/strata/metal,
@@ -2784,6 +2743,17 @@
 /obj/effect/decal/strata_decals/catwalk/prison,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"Ls" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/stairs/perspective{
+	color = "#6b675e";
+	dir = 6;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "Lv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/dam/crane/damaged,
@@ -2795,25 +2765,11 @@
 /obj/structure/largecrate/random,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"Ly" = (
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "LB" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
 /turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"LE" = (
-/obj/structure/platform/strata/metal{
-	dir = 8
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "LF" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -2825,39 +2781,14 @@
 	damage_cap = 500000
 	},
 /area/space)
-"LI" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 4
-	},
-/turf/open/floor/strata,
-/area/space)
 "LK" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -16;
-	pixel_y = -16
+/obj/structure/platform/strata/metal{
+	dir = 8
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 16;
-	pixel_y = -16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -16;
-	pixel_y = 16
-	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
-	icon_state = "floor3"
+	dir = 8;
+	icon_state = "multi_tiles"
 	},
 /area/space)
 "LL" = (
@@ -2878,6 +2809,13 @@
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
+/area/space)
+"LQ" = (
+/obj/structure/platform/strata/metal{
+	climbable = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "LU" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -2937,6 +2875,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"Mp" = (
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7
+	},
+/turf/open/floor/strata{
+	icon_state = "multi_tiles"
+	},
+/area/space)
 "Ms" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -2946,13 +2893,6 @@
 	color = "#5e5d5d";
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"MB" = (
-/obj/item/lightstick/red/spoke/planted{
-	pixel_x = 13;
-	pixel_y = -1
-	},
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "MS" = (
 /obj/structure/machinery/telecomms/bus,
@@ -2972,17 +2912,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Nb" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 4
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 2
-	},
-/turf/open/floor/strata,
-/area/space)
 "Nd" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -2992,11 +2921,30 @@
 "Nh" = (
 /turf/closed/wall/strata_ice/dirty,
 /area/space)
+"Nj" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = -12
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2
+	},
+/turf/open/floor/strata,
+/area/space)
 "Ns" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"NH" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8
+	},
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
@@ -3020,11 +2968,9 @@
 	},
 /area/space)
 "NT" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/solid/colony{
-	dir = 1
-	},
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata{
-	dir = 8;
+	dir = 6;
 	icon_state = "multi_tiles"
 	},
 /area/space)
@@ -3035,17 +2981,16 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"Oh" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2;
-	pixel_y = -21
+"Of" = (
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7;
+	pixel_x = -1
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -2;
-	pixel_y = 4
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
 	},
-/turf/open/floor/strata,
 /area/space)
 "Oq" = (
 /obj/structure/platform/strata/metal{
@@ -3056,18 +3001,6 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"Ou" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2;
-	pixel_y = -22
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 2;
-	pixel_y = 4
-	},
-/turf/open/floor/strata,
-/area/space)
 "Ox" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -3077,9 +3010,56 @@
 	icon_state = "floor3"
 	},
 /area/space)
+"Oz" = (
+/obj/structure/prop/souto_land/streamer{
+	pixel_y = -2;
+	pixel_x = 1
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "OF" = (
 /obj/structure/machinery/door/poddoor/almayer/open,
 /turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"OU" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
+	},
+/obj/structure/holohoop{
+	dir = 4
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"OY" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/turf/open/floor/strata,
 /area/space)
 "Pa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3099,25 +3079,23 @@
 	},
 /area/space)
 "Pi" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	name = "Vehicle Underground Garage Blastdoor"
+/obj/structure/blocker/invisible_wall,
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4;
+	icon_state = "p_stair_full";
+	layer = 3
 	},
-/turf/closed/wall/strata_outpost/reinforced/hull,
-/area/space)
-"Pp" = (
-/obj/structure/fence,
-/turf/closed/wall/strata_outpost/reinforced/hull,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "Ps" = (
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "Pt" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3
-	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
@@ -3143,33 +3121,10 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"PF" = (
-/obj/structure/platform_decoration/strata/metal{
-	dir = 8
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"PL" = (
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/turf/closed/wall/strata_outpost/reinforced/hull,
-/area/space)
 "PN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/chair{
 	dir = 1
-	},
-/turf/open/floor/strata,
-/area/space)
-"PT" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = -12
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 4
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -3187,17 +3142,6 @@
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
-"Qf" = (
-/obj/structure/platform/strata/metal{
-	dir = 4
-	},
-/obj/structure/platform/strata/metal,
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
-/area/space)
 "Qi" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 8
@@ -3205,38 +3149,16 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Qt" = (
-/obj/structure/prop/invuln/ice_prefab/roof_greeble{
-	icon_state = "vent5";
-	pixel_y = 5
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
 	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "QA" = (
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
-/area/space)
-"QB" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4
-	},
-/turf/open/auto_turf/shale/layer1,
-/area/space)
-"QE" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 16
-	},
-/turf/open/floor/strata{
-	dir = 6;
-	icon_state = "multi_tiles"
-	},
 /area/space)
 "QF" = (
 /turf/closed/shuttle/elevator/button/dorm,
@@ -3267,18 +3189,22 @@
 	damage_cap = 500000
 	},
 /area/space)
-"QV" = (
-/obj/item/lightstick/red/spoke/planted{
-	pixel_x = 13;
-	pixel_y = 15
+"QW" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8;
+	icon_state = "p_stair_full";
+	layer = 3
 	},
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
-"Rg" = (
-/obj/structure/machinery/door/airlock/almayer/secure/colony{
-	dir = 2
-	},
-/turf/open/floor/strata,
+"Rb" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "Rj" = (
 /obj/structure/machinery/door_control{
@@ -3325,6 +3251,11 @@
 	},
 /turf/open/floor/strata,
 /area/space)
+"RO" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
 "RR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/heavyduty{
@@ -3342,6 +3273,12 @@
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
+/area/space)
+"RW" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/solid/colony{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "RX" = (
 /obj/structure/machinery/computer/arcade,
@@ -3362,27 +3299,6 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"Sb" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"Sd" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3"
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 2
-	},
-/turf/open/floor/strata,
-/area/space)
 "Sg" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
 	dir = 1
@@ -3392,17 +3308,38 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"So" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "Sp" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
 /turf/open/floor/strata,
 /area/space)
-"Su" = (
+"Ss" = (
+/obj/structure/platform_decoration/strata/metal,
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
 /obj/structure/platform/strata/metal,
-/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
+/area/space)
+"Su" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_x = -6
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_x = 9
+	},
+/turf/open/floor/strata,
 /area/space)
 "Sy" = (
 /obj/item/paper_bin{
@@ -3439,25 +3376,67 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"SK" = (
-/obj/structure/platform/strata/metal{
-	dir = 1;
-	climbable = 0
+"SE" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
 	},
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
 	},
-/obj/structure/blocker/invisible_wall,
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
 /area/space)
+"SF" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 2;
+	pixel_y = -21
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/turf/open/floor/strata,
+/area/space)
+"SK" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3;
+	dir = 4
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"SN" = (
+/obj/item/lightstick/red/spoke/planted{
+	pixel_x = 13;
+	pixel_y = 15
+	},
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "SS" = (
-/obj/structure/blocker/invisible_wall,
 /obj/structure/platform/strata/metal{
-	dir = 1;
+	dir = 8;
 	climbable = 0
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "SW" = (
@@ -3466,6 +3445,19 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"Tb" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = -12
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/space)
 "Td" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -3510,11 +3502,24 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Tw" = (
-/obj/structure/platform/strata/metal{
+/obj/structure/barricade/handrail{
 	dir = 4
 	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
+"TC" = (
 /obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	layer = 3;
+	dir = 8
+	},
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
 /area/space)
 "TH" = (
 /obj/item/lightstick/red/spoke/planted{
@@ -3523,12 +3528,15 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"TM" = (
-/obj/structure/prop/souto_land/streamer{
-	pixel_y = -6;
-	pixel_x = 1
+"TS" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
 	},
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 2
+	},
+/turf/open/floor/strata,
 /area/space)
 "TU" = (
 /obj/structure/platform/strata/metal{
@@ -3538,6 +3546,18 @@
 /obj/structure/platform_decoration/strata/metal,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
+"Uj" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4;
+	icon_state = "p_stair_full";
+	layer = 3
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/strata{
+	icon_state = "floor3"
+	},
+/area/space)
 "Uk" = (
 /obj/structure/platform{
 	dir = 4;
@@ -3546,32 +3566,6 @@
 /turf/open/floor/strata{
 	dir = 8;
 	icon_state = "multi_tiles"
-	},
-/area/space)
-"Us" = (
-/obj/structure/platform/strata/metal{
-	dir = 1;
-	climbable = 0
-	},
-/obj/structure/prop/structure_lattice{
-	color = "#A9A9A9"
-	},
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	climbable = 0
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"Ut" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 8
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
 	},
 /area/space)
 "Uz" = (
@@ -3589,6 +3583,15 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"UA" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
+/area/space)
 "UD" = (
 /obj/item/paper/crumpled{
 	pixel_x = 6;
@@ -3602,14 +3605,12 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"UJ" = (
-/obj/structure/platform{
-	dir = 4;
-	layer = 2.7
+"UI" = (
+/obj/item/lightstick/red/spoke/planted{
+	pixel_x = -15;
+	pixel_y = 15
 	},
-/turf/open/floor/strata{
-	icon_state = "multi_tiles"
-	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "UN" = (
 /turf/open/auto_turf/shale/layer2,
@@ -3621,40 +3622,37 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"US" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/turf/open/floor/strata,
-/area/space)
-"UU" = (
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = -12
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3"
-	},
-/turf/open/floor/strata,
-/area/space)
 "UV" = (
 /turf/closed/shuttle/elevator{
 	dir = 9
 	},
 /area/space)
-"UW" = (
+"UX" = (
 /obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3"
+	pixel_x = 2;
+	pixel_y = -22
 	},
 /obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -2
+	icon_state = "road_edge_decal6";
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/turf/open/floor/strata,
+/area/space)
+"Va" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/prop/souto_land/streamer,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"Ve" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 4
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -3686,30 +3684,18 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"Vn" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal8";
-	pixel_x = -16;
-	pixel_y = -16
+"Vp" = (
+/obj/structure/prop/souto_land/streamer{
+	pixel_y = -6;
+	pixel_x = 1
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal5";
-	pixel_x = -16;
-	pixel_y = 16
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"VJ" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "Vehicle Underground Garage Blastdoor"
 	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal6";
-	pixel_x = 16;
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal7";
-	pixel_x = 16;
-	pixel_y = -16
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "VM" = (
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
@@ -3717,34 +3703,21 @@
 	},
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space)
+"VO" = (
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"VQ" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform_decoration/strata/metal,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "Wf" = (
 /obj/structure/machinery/telecomms/processor,
 /turf/open/floor/strata,
-/area/space)
-"Wg" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	layer = 3;
-	dir = 4
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
-"Wh" = (
-/obj/structure/desertdam/decals/road_edge{
-	icon_state = "road_edge_decal3";
-	pixel_y = 16
-	},
-/obj/structure/desertdam/decals/road_edge{
-	pixel_x = 2
-	},
-/turf/open/floor/strata,
-/area/space)
-"Wo" = (
-/obj/structure/platform,
-/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Wp" = (
 /obj/structure/platform/strata/metal{
@@ -3768,14 +3741,6 @@
 	icon_state = "floor3"
 	},
 /area/space)
-"Wx" = (
-/obj/structure/barricade/handrail{
-	dir = 4
-	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
-/area/space)
 "WA" = (
 /obj/structure/machinery/door/airlock/almayer/secure,
 /turf/open/floor/strata,
@@ -3786,36 +3751,44 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"WI" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/solid/colony{
-	dir = 1
+"WJ" = (
+/obj/structure/platform{
+	dir = 8;
+	layer = 2.8
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"WJ" = (
-/obj/structure/blocker/invisible_wall,
-/obj/structure/platform/strata/metal{
-	dir = 4
-	},
-/turf/open/floor/strata{
-	dir = 8;
-	icon_state = "multi_tiles"
-	},
 /area/space)
 "Xh" = (
 /obj/structure/machinery/light/double/blue,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"Xr" = (
-/obj/structure/barricade/handrail{
+"Xu" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
-/obj/structure/bed/chair{
-	dir = 1
+/turf/open/auto_turf/shale/layer1,
+/area/space)
+"Xw" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
 	},
-/turf/open/floor/strata{
-	icon_state = "floor3"
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
 	},
+/turf/open/floor/strata,
+/area/space)
+"Xx" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4
+	},
+/obj/structure/ladder{
+	climb_delay = 10
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "Xz" = (
 /obj/structure/platform/strata/metal{
@@ -3823,13 +3796,21 @@
 	},
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
-"XE" = (
+"XD" = (
+/obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
-	dir = 4
+	dir = 8
 	},
-/obj/structure/platform_decoration/strata/metal{
-	dir = 1
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
 	},
+/area/space)
+"XL" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "XP" = (
@@ -3853,11 +3834,13 @@
 "XU" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3";
-	pixel_x = -6
+	pixel_x = 6;
+	pixel_y = 4
 	},
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3";
-	pixel_x = 9
+	pixel_x = -9;
+	pixel_y = 4
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -3888,6 +3871,13 @@
 	icon_state = "floor3"
 	},
 /area/space)
+"Ya" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/platform_decoration/strata/metal,
+/turf/open/auto_turf/shale/layer1,
+/area/space)
 "Ye" = (
 /obj/structure/machinery/computer,
 /obj/item/ashtray/bronze{
@@ -3913,26 +3903,14 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"Yw" = (
-/obj/structure/platform{
-	dir = 4;
-	layer = 2.7;
-	pixel_x = -1
+"Yu" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/solid/colony{
+	dir = 1
 	},
 /turf/open/floor/strata{
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"Yy" = (
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/obj/structure/platform/strata/metal{
-	dir = 4
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "YC" = (
 /obj/structure/platform/strata/metal{
@@ -3953,6 +3931,22 @@
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"YO" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "Vehicle Underground Garage Blastdoor"
+	},
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
+/area/space)
+"YY" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/platform/strata/metal{
+	climbable = 0
+	},
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "Zc" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -4004,15 +3998,21 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"ZF" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = -12
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
+/area/space)
 "ZN" = (
 /obj/structure/machinery/door/airlock/almayer/secure,
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"ZT" = (
-/obj/structure/platform{
-	dir = 4;
-	layer = 2.7
-	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "ZW" = (
@@ -7702,7 +7702,7 @@ Nh
 Nh
 Nh
 Nh
-QT
+Nh
 Nh
 Nh
 Nh
@@ -8041,12 +8041,12 @@ rp
 rp
 rp
 rp
-rp
-rp
-rp
-rp
-rp
-rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -8382,14 +8382,14 @@ oD
 oD
 xE
 oD
-oD
-xE
-oD
-oD
-xE
-oD
 rp
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -8725,14 +8725,14 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -9068,13 +9068,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -9409,15 +9409,15 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -9752,13 +9752,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -10056,18 +10056,12 @@ oD
 oD
 oD
 oD
-ru
+ve
 oD
 oD
 oD
 oD
-QV
-oD
-oD
-oD
-oD
-oD
-oD
+SN
 oD
 oD
 oD
@@ -10101,6 +10095,12 @@ oD
 oD
 oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -10435,14 +10435,14 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -10778,13 +10778,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -11120,13 +11120,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -11461,15 +11461,15 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -11769,7 +11769,7 @@ QT
 QT
 QT
 Jn
-NT
+Yu
 QT
 QT
 QT
@@ -11804,13 +11804,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -12146,13 +12146,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -12487,14 +12487,14 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -12830,13 +12830,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -13172,13 +13172,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -13513,15 +13513,15 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -13856,13 +13856,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -14198,13 +14198,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -14539,14 +14539,14 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -14882,13 +14882,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -15224,13 +15224,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -15565,15 +15565,15 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -15908,13 +15908,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -16250,13 +16250,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -16591,14 +16591,14 @@ YC
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -16934,13 +16934,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -17276,13 +17276,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -17617,15 +17617,15 @@ YC
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -17960,13 +17960,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -18302,13 +18302,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -18643,14 +18643,14 @@ YC
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -18986,13 +18986,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -19328,13 +19328,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -19621,11 +19621,11 @@ oD
 oD
 oD
 Ps
-QT
-QT
-QT
-QT
-QT
+rp
+rp
+rp
+rp
+rp
 QT
 QT
 QT
@@ -19669,15 +19669,15 @@ YC
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -19963,11 +19963,11 @@ oD
 oD
 oD
 Ps
-QT
-Hu
-Hu
-Hu
-QT
+rp
+UV
+ib
+bY
+rp
 iy
 iy
 iy
@@ -20012,13 +20012,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -20115,8 +20115,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -20305,11 +20305,11 @@ oD
 oD
 oD
 Ps
-QT
-Hu
-Hu
-Hu
-QT
+rp
+mu
+cz
+vk
+nY
 vo
 vo
 vo
@@ -20354,13 +20354,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -20457,8 +20457,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -20647,11 +20647,11 @@ oD
 oD
 oD
 Ps
-QT
-Hu
-Hu
-Hu
-QT
+rp
+QF
+cz
+cz
+vo
 vo
 vo
 vo
@@ -20695,14 +20695,14 @@ YC
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -20799,8 +20799,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -20989,11 +20989,11 @@ oD
 oD
 oD
 Ps
-QT
-Hu
-Hu
-Hu
-QT
+rp
+xl
+ib
+Jw
+rp
 Uk
 Uk
 Uk
@@ -21038,13 +21038,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -21141,8 +21141,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -21331,11 +21331,11 @@ oD
 oD
 oD
 Ps
-QT
-QT
-QT
-QT
-QT
+rp
+rp
+rp
+rp
+rp
 QT
 QT
 QT
@@ -21380,13 +21380,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -21483,8 +21483,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -21721,15 +21721,15 @@ cI
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 xE
 rp
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -21825,8 +21825,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -22064,13 +22064,13 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -22167,8 +22167,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -22294,8 +22294,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -22406,14 +22406,14 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
-rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -22509,8 +22509,8 @@ rp
 rp
 rp
 rp
-nE
-Wo
+sm
+wk
 rp
 rp
 rp
@@ -22636,8 +22636,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -22747,54 +22747,9 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-rp
+xE
 rp
 Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
 Nh
 Nh
 Nh
@@ -22803,7 +22758,52 @@ Nh
 Nh
 Nh
 Nh
-QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 Nh
 Nh
 Nh
@@ -22978,8 +22978,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -23090,65 +23090,65 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
 rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 hR
 hR
 hR
@@ -23320,8 +23320,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -23432,66 +23432,66 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-QT
-QT
+rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 hR
 hR
 hR
@@ -23662,8 +23662,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -23773,68 +23773,68 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
+xE
+rp
 QT
-QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+hR
 hR
 hR
 Nh
@@ -24004,8 +24004,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -24116,68 +24116,68 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-QT
-QT
+rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+hR
+hR
 hR
 Nh
 Nh
@@ -24346,8 +24346,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -24458,68 +24458,68 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-QT
+rp
+rp
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+hR
 hR
 hR
 Nh
@@ -24688,8 +24688,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -24801,67 +24801,67 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-xE
+rp
+rp
+Nh
 QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+QT
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
 hR
 hR
 hR
@@ -25030,8 +25030,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -25144,66 +25144,66 @@ oD
 oD
 oD
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-QT
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+Nh
+Nh
+Nh
+Nh
 hR
 hR
 hR
@@ -25372,8 +25372,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -25488,64 +25488,64 @@ oD
 oD
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
 oD
+xE
 oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-oD
-QT
+rp
+rp
+Nh
+Nh
+Nh
 hR
 hR
 hR
@@ -25714,8 +25714,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 rp
 rp
@@ -25884,11 +25884,11 @@ oD
 oD
 oD
 oD
-oD
-oD
-xE
-QT
-QT
+rp
+rp
+Nh
+Nh
+hR
 hR
 hR
 hR
@@ -26059,7 +26059,7 @@ Hn
 vo
 ik
 iy
-tQ
+yz
 rp
 Nh
 lf
@@ -26227,8 +26227,8 @@ oD
 oD
 oD
 oD
-oD
-oD
+rp
+rp
 QT
 hR
 hR
@@ -33804,7 +33804,7 @@ Nh
 Nh
 Nh
 Nh
-Pi
+By
 iy
 iy
 iy
@@ -33825,7 +33825,7 @@ iy
 iy
 iy
 iy
-tz
+YO
 Hu
 Hu
 Hu
@@ -34167,7 +34167,7 @@ vo
 vo
 vo
 vo
-rT
+VJ
 Hu
 Hu
 Hu
@@ -34509,7 +34509,7 @@ vo
 vo
 vo
 vo
-rT
+VJ
 Hu
 Hu
 Hu
@@ -34851,7 +34851,7 @@ vo
 vo
 vo
 vo
-rT
+VJ
 Hu
 Hu
 Hu
@@ -35193,7 +35193,7 @@ Uk
 Uk
 Uk
 Uk
-tz
+YO
 Hu
 Hu
 Hu
@@ -35911,7 +35911,7 @@ vo
 vo
 vo
 nY
-mf
+vk
 cz
 mu
 rp
@@ -36254,7 +36254,7 @@ vo
 vo
 vo
 cz
-fb
+jx
 QF
 rp
 Nh
@@ -40509,12 +40509,12 @@ zM
 LU
 oD
 oD
-ru
+ve
 oD
 oD
 oD
 oD
-QV
+SN
 oD
 oD
 xo
@@ -40795,11 +40795,11 @@ oD
 oD
 oD
 oD
-Pp
-Pp
-Pp
-Pp
-Pp
+Bt
+Bt
+Bt
+Bt
+Bt
 rp
 rp
 rp
@@ -41145,7 +41145,7 @@ iy
 iy
 iy
 iy
-Pi
+By
 rp
 rp
 rp
@@ -42567,7 +42567,7 @@ vo
 vo
 vo
 nY
-mf
+vk
 cz
 mu
 rp
@@ -42847,11 +42847,11 @@ oD
 oD
 oD
 oD
-Pp
-Pp
-Pp
-Pp
-Pp
+Bt
+Bt
+Bt
+Bt
+Bt
 rp
 rp
 rp
@@ -42910,7 +42910,7 @@ vo
 vo
 vo
 cz
-fb
+jx
 QF
 rp
 Hu
@@ -44653,19 +44653,19 @@ oD
 oD
 oD
 xo
-HW
-HW
-HW
-HW
+xd
+xd
+xd
+xd
 zM
 zM
 oD
 oD
 xo
-HW
-HW
-HW
-HW
+xd
+xd
+xd
+xd
 zM
 zM
 oD
@@ -44994,22 +44994,22 @@ oD
 oD
 oD
 oD
-hX
+Ew
 rO
 rO
-ex
-ex
-ex
-ex
+ea
+ea
+ea
+ea
 oD
 oD
-hX
+Ew
 rO
 rO
-ex
-ex
-ex
-ex
+ea
+ea
+ea
+ea
 oD
 oD
 oD
@@ -45336,23 +45336,23 @@ oD
 oD
 oD
 oD
-hX
+Ew
 rO
-Us
-KB
-cY
-cY
-KB
+Dm
 Gh
+wR
+wR
+Gh
+yT
 oD
-hX
+Ew
 rO
-Us
-KB
-cY
-cY
-KB
+Dm
 Gh
+wR
+wR
+Gh
+yT
 oD
 oD
 oD
@@ -45678,23 +45678,23 @@ oD
 oD
 oD
 oD
-hX
-hQ
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+Ew
+GJ
+qf
+yT
+yT
+yT
+yT
+yT
 oD
-hX
-hQ
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+Ew
+GJ
+qf
+yT
+yT
+yT
+yT
+yT
 oD
 oD
 oD
@@ -46020,23 +46020,23 @@ oD
 oD
 oD
 oD
-hX
-hQ
-SK
-Gh
+Ew
+GJ
+qf
+yT
 rO
 rO
-Gh
-Gh
+yT
+yT
 oD
-hX
-hQ
-SK
-Gh
+Ew
+GJ
+qf
+yT
 rO
 rO
-Gh
-Gh
+yT
+yT
 oD
 oD
 oD
@@ -46362,23 +46362,23 @@ oD
 oD
 oD
 oD
-hX
-hQ
-SK
-Gh
+Ew
+GJ
+qf
+yT
 rO
 rO
-Gh
-Gh
+yT
+yT
 oD
-hX
-hQ
-SK
-Gh
+Ew
+GJ
+qf
+yT
 rO
 rO
-Gh
-Gh
+yT
+yT
 oD
 oD
 oD
@@ -46704,23 +46704,23 @@ oD
 oD
 oD
 oD
-hX
-ca
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+Ew
+rv
+qf
+yT
+yT
+yT
+yT
+yT
 oD
-hX
-ca
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+Ew
+rv
+qf
+yT
+yT
+yT
+yT
+yT
 oD
 oD
 oD
@@ -47046,23 +47046,23 @@ oD
 oD
 oD
 oD
-hX
+Ew
 rp
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+qf
+yT
+yT
+yT
+yT
+yT
 oD
-hX
+Ew
 rp
-SK
-Gh
-Gh
-Gh
-Gh
-Gh
+qf
+yT
+yT
+yT
+yT
+yT
 oD
 oD
 oD
@@ -47389,7 +47389,7 @@ oD
 oD
 oD
 bp
-GC
+mQ
 cI
 oD
 oD
@@ -47398,7 +47398,7 @@ oD
 oD
 oD
 bp
-GC
+mQ
 cI
 oD
 oD
@@ -48025,15 +48025,15 @@ rO
 rO
 Ps
 QT
-Fs
+WJ
 vo
-Fs
-Fs
-Fs
-Fs
+WJ
+WJ
+WJ
+WJ
 vo
-Fs
-ka
+WJ
+rB
 vo
 vo
 vo
@@ -48367,15 +48367,15 @@ rO
 rO
 Ps
 QT
-ZT
+VO
 vo
-ZT
-ZT
-ZT
-ZT
+VO
+VO
+VO
+VO
 vo
-ZT
-aO
+VO
+KD
 vo
 vo
 vo
@@ -49407,7 +49407,7 @@ vo
 vo
 qv
 Uk
-Yw
+Of
 Uk
 Uk
 Uk
@@ -51114,7 +51114,7 @@ QT
 QT
 QT
 vo
-WI
+RW
 QT
 QT
 QT
@@ -52821,12 +52821,12 @@ oD
 oD
 oD
 oD
-jb
+zL
 oD
 oD
 oD
 oD
-Ht
+UI
 oD
 oD
 oD
@@ -54388,7 +54388,7 @@ Hu
 Hu
 Hu
 nY
-mf
+vk
 cz
 mu
 rp
@@ -54731,7 +54731,7 @@ Hu
 Hu
 vo
 cz
-fb
+jx
 QF
 rp
 Nh
@@ -63157,7 +63157,7 @@ oD
 oD
 oD
 QT
-hR
+oD
 hR
 oD
 oD
@@ -63497,9 +63497,9 @@ oD
 oD
 oD
 oD
+oD
 QT
-QT
-hR
+UN
 hR
 hR
 oD
@@ -63815,33 +63815,33 @@ oD
 oD
 oD
 oD
-xE
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
 oD
 oD
 xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
-oD
-xE
-oD
 QT
-QT
-hR
-hR
+UN
 hR
 hR
 hR
@@ -64155,35 +64155,35 @@ oD
 oD
 oD
 oD
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
 oD
 oD
-hR
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+QT
+oD
 hR
 hR
 hR
@@ -64496,35 +64496,35 @@ oD
 oD
 oD
 oD
-rp
-rp
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
-Nh
-Nh
-Nh
-QT
-Nh
-Nh
 oD
 oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+QT
 oD
 hR
 hR
@@ -64829,45 +64829,45 @@ oD
 oD
 oD
 oD
-xE
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
 oD
 oD
 xE
-oD
-oD
-xE
-oD
-rp
-rp
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-oD
-oD
+QT
+QT
 oD
 hR
 hR
@@ -65170,45 +65170,45 @@ oD
 oD
 oD
 oD
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-rp
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+QT
 oD
 oD
 oD
@@ -65511,46 +65511,46 @@ oD
 oD
 oD
 oD
-rp
-rp
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
 QT
-Nh
-Nh
-Nh
-Nh
-Nh
 QT
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
 oD
 oD
 oD
@@ -65852,46 +65852,46 @@ oD
 oD
 xE
 oD
-rp
-rp
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+oD
+oD
+xE
+QT
+QT
 oD
 oD
 oD
@@ -66195,45 +66195,45 @@ rp
 rp
 rp
 rp
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+rp
+oD
 oD
 oD
 oD
@@ -66540,40 +66540,40 @@ Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
 Nh
 Nh
 Nh
+QT
 Nh
 Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
-Nh
+QT
 Nh
 oD
 oD
@@ -69204,12 +69204,12 @@ oD
 oD
 oD
 oD
-MB
+lj
 oD
 oD
 oD
 oD
-QV
+SN
 oD
 oD
 oD
@@ -69280,20 +69280,20 @@ EL
 oD
 oD
 xo
-HW
-HW
-HW
-HW
+xd
+xd
+xd
+xd
 zM
 zM
 oD
 oD
 oD
 xo
-HW
-HW
-HW
-HW
+xd
+xd
+xd
+xd
 zM
 zM
 oD
@@ -69621,26 +69621,26 @@ EL
 EL
 oD
 oD
-hX
+Ew
 rO
 rO
-Ct
-Ct
-Ct
-Ct
+aR
+aR
+aR
+aR
 xo
 zM
 LU
-hX
+Ew
 rO
 rO
-Ct
-Ct
-Ct
-Ct
+aR
+aR
+aR
+aR
 xo
 zM
-PF
+tU
 UG
 EL
 EL
@@ -69963,26 +69963,26 @@ EL
 EL
 oD
 oD
-hX
+Ew
 rO
-Us
-KB
-cY
-cY
-KB
-bn
+Dm
+Gh
+wR
+wR
+Gh
+oa
 rp
-SS
-ck
+iE
+LQ
 rO
-Us
-KB
-cY
-cY
-KB
-bn
+Dm
+Gh
+wR
+wR
+Gh
+oa
 rp
-SS
+iE
 UG
 EL
 EL
@@ -70305,26 +70305,26 @@ EL
 EL
 oD
 oD
-hX
-Ut
-SK
-Gh
-Gh
-Gh
-Gh
-bn
-sp
-KQ
-ck
-Ut
-SK
-Gh
-Gh
-Gh
-Gh
-bn
-sp
-KQ
+Ew
+NH
+qf
+yT
+yT
+yT
+yT
+oa
+Xx
+fa
+LQ
+NH
+qf
+yT
+yT
+yT
+yT
+oa
+Xx
+fa
 UG
 EL
 EL
@@ -70647,26 +70647,26 @@ EL
 EL
 oD
 UG
-ck
-At
-SK
-Gh
+LQ
+dM
+qf
+yT
 rO
 rO
-Gh
-bn
-QB
-SS
-ck
-At
-SK
-Gh
+yT
+oa
+vv
+iE
+LQ
+dM
+qf
+yT
 rO
 rO
-Gh
-bn
-QB
-SS
+yT
+oa
+vv
+iE
 UG
 EL
 EL
@@ -70989,26 +70989,26 @@ EL
 EL
 oD
 UG
-ck
-At
-SK
-Gh
+LQ
+dM
+qf
+yT
 rO
 rO
-Gh
-bn
-QB
-SS
-ck
-At
-SK
-Gh
+yT
+oa
+vv
+iE
+LQ
+dM
+qf
+yT
 rO
 rO
-Gh
-bn
-QB
-SS
+yT
+oa
+vv
+iE
 UG
 EL
 EL
@@ -71331,26 +71331,26 @@ EL
 EL
 oD
 UG
-ck
-bW
-SK
-Gh
-Gh
-Gh
-Gh
-bn
-QB
-SS
-ck
-bW
-SK
-Gh
-Gh
-Gh
-Gh
-bn
-QB
-SS
+LQ
+tc
+qf
+yT
+yT
+yT
+yT
+oa
+vv
+iE
+LQ
+tc
+qf
+yT
+yT
+yT
+yT
+oa
+vv
+iE
 UG
 EL
 EL
@@ -71673,26 +71673,26 @@ EL
 EL
 oD
 UG
-ck
+LQ
 rO
-gS
-dw
-dw
-dw
-dw
-di
+eR
+Kv
+Kv
+Kv
+Kv
+Hb
 rO
-SS
-ck
+iE
+LQ
 rO
-gS
-dw
-dw
-dw
-dw
-di
+eR
+Kv
+Kv
+Kv
+Kv
+Hb
 rO
-SS
+iE
 UG
 EL
 EL
@@ -72015,26 +72015,26 @@ EL
 EL
 oD
 UG
-ap
+YY
 rO
 rO
-tf
-tf
-tf
-tf
+uK
+uK
+uK
+uK
 rO
 rO
-SS
-ap
+iE
+YY
 rO
 rO
-tf
-tf
-tf
-tf
+uK
+uK
+uK
+uK
 rO
 rO
-SS
+iE
 UG
 EL
 EL
@@ -72357,26 +72357,26 @@ EL
 EL
 oD
 UG
-pp
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-sV
-pp
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-sV
+Qt
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+AX
+Qt
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+AX
 UG
 EL
 EL
@@ -73640,11 +73640,11 @@ oD
 oD
 Ps
 rp
-Wx
-Wx
-Wx
-Wx
-Wx
+Tw
+Tw
+Tw
+Tw
+Tw
 rO
 Hu
 Hu
@@ -73982,11 +73982,11 @@ oD
 oD
 Ps
 rp
-wm
-PT
-sN
-UU
-tH
+fv
+Dg
+OU
+Xw
+Tb
 Hu
 Hu
 Hu
@@ -74324,12 +74324,12 @@ oD
 oD
 Ps
 rp
-Wh
-gF
+Ez
+jU
 pS
-UW
-am
-sw
+Js
+Nj
+fu
 Hu
 Hu
 Hu
@@ -74493,8 +74493,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 rp
 rp
 rp
@@ -74666,14 +74666,14 @@ oD
 oD
 Ps
 rp
-ol
-ds
-pS
+na
 XU
-vO
-Xr
-yT
-yT
+pS
+Su
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -74693,16 +74693,16 @@ Hu
 Hu
 Hu
 rp
-vg
+tX
 UG
 UG
 UG
-yZ
-Ly
-Ly
-Ly
-Ly
-vg
+Rb
+am
+am
+am
+am
+tX
 UG
 UG
 UG
@@ -74835,8 +74835,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -75008,14 +75008,14 @@ oD
 oD
 Ps
 rp
-ol
-Ou
-Vn
-eq
-vO
-Xr
-yT
-yT
+na
+UX
+SE
+JM
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -75035,23 +75035,23 @@ Hu
 Hu
 Hu
 rp
-Yy
-Tw
-Tw
-Tw
-Su
-WJ
-WJ
-WJ
-WJ
-Yy
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
+fG
+wJ
+wJ
+wJ
+aN
+nh
+nh
+nh
+nh
+fG
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
 UG
 oD
 oD
@@ -75177,8 +75177,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -75350,14 +75350,14 @@ oD
 oD
 Ps
 rp
-ol
+na
 pS
 pS
 pS
-vO
-Xr
-yT
-yT
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -75377,23 +75377,23 @@ QT
 QT
 QT
 rp
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Co
-vg
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+Aa
+tX
 UG
 oD
 oD
@@ -75519,8 +75519,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -75692,14 +75692,14 @@ oD
 oD
 Ps
 rp
-ol
+na
 pS
 pS
 pS
-vO
-Xr
-yT
-yT
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -75735,7 +75735,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -75861,8 +75861,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -76034,14 +76034,14 @@ oD
 oD
 Ps
 rp
-JP
-he
-wR
-he
-nt
-Xr
-yT
-yT
+De
+mc
+Dt
+mc
+dr
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -76077,7 +76077,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -76203,8 +76203,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -76376,14 +76376,14 @@ oD
 oD
 Ps
 rp
-ol
+na
 pS
 pS
 pS
-vO
-Xr
-yT
-yT
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -76405,21 +76405,21 @@ Hu
 QT
 rO
 rO
-Qt
+JK
 rO
 rO
 rO
 rO
 rO
 rO
-rc
+Ir
 rO
 rO
-Qt
+JK
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -76545,8 +76545,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -76718,14 +76718,14 @@ oD
 oD
 Ps
 rp
-ol
+na
 pS
 pS
 pS
-vO
-Xr
-yT
-yT
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -76747,21 +76747,21 @@ Hu
 QT
 rO
 rO
-Qt
+JK
 rO
 rO
-rc
-rO
-rO
-rO
+Ir
 rO
 rO
 rO
-Qt
+rO
+rO
+rO
+JK
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -76887,8 +76887,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 Hu
 Hu
@@ -77060,14 +77060,14 @@ oD
 oD
 Ps
 rp
-ol
-Oh
-LK
-Dv
-vO
-Xr
-yT
-yT
+na
+SF
+bw
+Gv
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -77103,7 +77103,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -77229,8 +77229,8 @@ Nh
 Nh
 Nh
 rp
-nE
-Wo
+sm
+wk
 nH
 nH
 nH
@@ -77356,8 +77356,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -77402,14 +77402,14 @@ oD
 oD
 Ps
 rp
-ol
-US
+na
+Ks
 pS
-XU
-vO
-Xr
-yT
-yT
+Su
+CS
+rn
+ck
+ck
 Hu
 Hu
 QT
@@ -77445,7 +77445,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -77571,9 +77571,9 @@ Nh
 Nh
 Nh
 rp
-nE
+sm
 vo
-Eu
+dZ
 iy
 iy
 iy
@@ -77698,8 +77698,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -77744,12 +77744,12 @@ oD
 oD
 Ps
 rp
-Wh
-Nb
+Ez
+Ju
 pS
-Sd
-am
-sw
+TS
+Nj
+fu
 Hu
 Hu
 Hu
@@ -77773,21 +77773,21 @@ Hu
 QT
 rO
 rO
-rc
+Ir
 rO
 rO
 rO
-Qt
-Qt
-Qt
+JK
+JK
+JK
 rO
 rO
 rO
-rc
+Ir
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -77913,7 +77913,7 @@ Nh
 Nh
 Nh
 rp
-nE
+sm
 vo
 vo
 vo
@@ -78040,8 +78040,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -78086,11 +78086,11 @@ oD
 oD
 Ps
 rp
-QE
-LI
-bi
-lb
-GD
+rz
+Ve
+HP
+OY
+ZF
 Hu
 Hu
 Hu
@@ -78129,7 +78129,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -78255,7 +78255,7 @@ Nh
 Nh
 Nh
 rp
-nE
+sm
 vo
 vo
 vo
@@ -78382,8 +78382,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -78471,7 +78471,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -78597,7 +78597,7 @@ Nh
 Nh
 Nh
 rp
-IT
+KK
 Uk
 Uk
 Uk
@@ -78724,8 +78724,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -78799,21 +78799,21 @@ QT
 QT
 rO
 rO
-Qt
+JK
 rO
 rO
-rc
-rO
-rO
-rO
+Ir
 rO
 rO
 rO
-Qt
+rO
+rO
+rO
+JK
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -79066,8 +79066,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -79114,7 +79114,7 @@ Ps
 rp
 mu
 cz
-mf
+vk
 nY
 vo
 vo
@@ -79141,21 +79141,21 @@ QT
 QT
 rO
 rO
-Qt
+JK
 rO
 rO
 rO
 rO
 rO
 rO
-rc
+Ir
 rO
 rO
-Qt
+JK
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -79408,8 +79408,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -79497,7 +79497,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -79750,8 +79750,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -79837,9 +79837,9 @@ rO
 rO
 rO
 rO
-yg
+CR
 fP
-vg
+tX
 UG
 oD
 oD
@@ -80092,8 +80092,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -80165,23 +80165,23 @@ rp
 rp
 rp
 rp
-JJ
-JJ
-gM
-gM
-gM
+Pi
+Pi
+Uj
+Uj
+Uj
 rO
 rO
 rO
 rO
-gM
-JJ
-JJ
-JJ
-gM
-gM
-xG
-vg
+Uj
+Pi
+Pi
+Pi
+Uj
+Uj
+Ls
+tX
 UG
 oD
 oD
@@ -80434,8 +80434,8 @@ Hu
 Hu
 Hu
 nH
-nE
-Wo
+sm
+wk
 rp
 Nh
 Nh
@@ -80506,24 +80506,24 @@ QT
 QT
 QT
 rp
-PL
-Bd
-LE
-LE
-eX
+wh
+Eg
+XL
+XL
+Df
 fP
 fP
 vo
 vo
 fP
 fP
-Bd
-LE
-LE
-LE
-LE
-LE
-sV
+Eg
+XL
+XL
+XL
+XL
+XL
+AX
 UG
 oD
 oD
@@ -80776,8 +80776,8 @@ nH
 nH
 nH
 nH
-nE
-Wo
+sm
+wk
 rp
 rp
 rp
@@ -80849,17 +80849,17 @@ QT
 QT
 xE
 Gl
-sV
+AX
 UG
 UG
-yZ
+Rb
 fP
 fP
 vo
 vo
 fP
 fP
-vg
+tX
 UG
 UG
 UG
@@ -81121,7 +81121,7 @@ Hn
 vo
 ik
 iy
-tQ
+yz
 rp
 Nh
 lf
@@ -90631,7 +90631,7 @@ vo
 vo
 vo
 nY
-mf
+vk
 cz
 mu
 rp
@@ -90974,7 +90974,7 @@ vo
 vo
 vo
 cz
-fb
+jx
 QF
 rp
 Hu
@@ -91129,7 +91129,7 @@ Hz
 Zc
 oD
 bp
-bE
+mm
 xE
 rp
 rp
@@ -91145,8 +91145,8 @@ rp
 rp
 rp
 rp
-PL
-Bd
+wh
+Eg
 cI
 oD
 bp
@@ -91471,9 +91471,9 @@ Zc
 hR
 oD
 oD
-pp
-bE
-Sb
+Qt
+mm
+qN
 rO
 rO
 rO
@@ -91487,8 +91487,8 @@ rO
 rO
 rO
 fP
-Bd
-sV
+Eg
+AX
 oD
 oD
 oD
@@ -91813,9 +91813,9 @@ Xz
 Xz
 Xz
 zM
-Tw
-Su
-Sb
+wJ
+aN
+qN
 rO
 rO
 rO
@@ -91829,8 +91829,8 @@ rO
 rO
 rO
 fP
-Yy
-Tw
+fG
+wJ
 zM
 Xz
 Xz
@@ -92073,8 +92073,8 @@ EL
 EL
 oD
 zM
-XE
-aj
+Xu
+ah
 rp
 rp
 QT
@@ -92150,14 +92150,14 @@ QT
 QT
 QT
 rp
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Sb
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+qN
 rO
 rO
 rO
@@ -92171,13 +92171,13 @@ rO
 rO
 rO
 fP
-qB
-qB
-qB
-qB
-qB
-qB
-qB
+TC
+TC
+TC
+TC
+TC
+TC
+TC
 rp
 QT
 WA
@@ -92210,7 +92210,7 @@ vo
 He
 rp
 rp
-jC
+Fp
 Xz
 Xz
 Xz
@@ -92416,8 +92416,8 @@ EL
 oD
 pS
 pS
-jF
-lD
+UA
+XD
 rp
 Vj
 iy
@@ -92492,14 +92492,14 @@ Hu
 Hu
 Hu
 rp
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
+QW
+QW
+QW
+QW
+QW
+QW
+QW
+QW
 rO
 rO
 rO
@@ -92512,14 +92512,14 @@ QT
 rO
 rO
 rO
-qB
-qB
-qB
-qB
-qB
-qB
-qB
-qB
+TC
+TC
+TC
+TC
+TC
+TC
+TC
+TC
 rp
 iy
 vo
@@ -92552,7 +92552,7 @@ vo
 vo
 pS
 rp
-HY
+GD
 pS
 pS
 pS
@@ -92759,7 +92759,7 @@ oD
 pS
 pS
 pS
-wf
+NT
 rp
 kk
 vo
@@ -92894,7 +92894,7 @@ vo
 vo
 pS
 rp
-HY
+GD
 pS
 hc
 pS
@@ -93101,7 +93101,7 @@ oD
 pS
 pS
 pS
-wf
+NT
 rp
 kk
 vo
@@ -93236,7 +93236,7 @@ vo
 vo
 pS
 rp
-HY
+GD
 pS
 pS
 pS
@@ -93443,7 +93443,7 @@ oD
 pS
 pS
 pS
-wf
+NT
 rp
 kk
 vo
@@ -93518,14 +93518,14 @@ Hu
 Hu
 Hu
 rp
-gM
-JJ
-JJ
-JJ
-JJ
-JJ
-gM
-gM
+Uj
+Pi
+Pi
+Pi
+Pi
+Pi
+Uj
+Uj
 rO
 rO
 rO
@@ -93538,14 +93538,14 @@ QT
 rO
 rO
 rO
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
 rp
 Uk
 vo
@@ -93576,9 +93576,9 @@ Uk
 Uk
 Uk
 Uk
-UJ
+Mp
 rp
-HY
+GD
 pS
 pS
 pS
@@ -93784,8 +93784,8 @@ EL
 oD
 gU
 gU
-Gq
-Cm
+Ya
+IC
 rp
 kk
 vo
@@ -93860,14 +93860,14 @@ QT
 QT
 QT
 rp
-gM
-JJ
-JJ
-JJ
-JJ
-JJ
-gM
-Sb
+Uj
+Pi
+Pi
+Pi
+Pi
+Pi
+Uj
+qN
 rO
 rO
 rO
@@ -93880,14 +93880,14 @@ QT
 rO
 rO
 rO
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
-JJ
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
 rp
 QT
 WA
@@ -93920,7 +93920,7 @@ QT
 QT
 QT
 rp
-Dn
+zd
 jv
 jv
 jv
@@ -94207,9 +94207,9 @@ gU
 gU
 gU
 gU
-LE
-eX
-Sb
+XL
+Df
+qN
 rO
 rO
 rO
@@ -94223,8 +94223,8 @@ rO
 rO
 rO
 fP
-Bd
-LE
+Eg
+XL
 gU
 gU
 gU
@@ -94468,7 +94468,7 @@ EL
 oD
 xo
 xo
-re
+Ss
 rp
 rp
 kk
@@ -94550,8 +94550,8 @@ hR
 oD
 oD
 UG
-yZ
-Sb
+Rb
+qN
 rO
 rO
 rO
@@ -94565,7 +94565,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -94809,7 +94809,7 @@ EL
 EL
 oD
 oD
-De
+KS
 rp
 rp
 rp
@@ -94892,8 +94892,8 @@ Ah
 oD
 oD
 UG
-yZ
-Sb
+Rb
+qN
 rO
 rO
 rO
@@ -94907,7 +94907,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 oD
@@ -95234,8 +95234,8 @@ wv
 cO
 oD
 UG
-yZ
-Sb
+Rb
+qN
 rO
 rO
 rO
@@ -95249,7 +95249,7 @@ rO
 rO
 rO
 fP
-vg
+tX
 UG
 oD
 xo
@@ -95493,7 +95493,7 @@ EL
 EL
 oD
 Ps
-fR
+JZ
 rp
 rp
 rp
@@ -95576,22 +95576,22 @@ xE
 LB
 oD
 UG
-yZ
-JJ
-JJ
-JJ
-JJ
+Rb
+Pi
+Pi
+Pi
+Pi
 rp
 kk
 vo
 vo
 bj
 rp
-JJ
-JJ
-JJ
-xG
-Ey
+Pi
+Pi
+Pi
+Ls
+zD
 UG
 oD
 Ps
@@ -95835,7 +95835,7 @@ EL
 EL
 oD
 Ps
-fR
+JZ
 rp
 rp
 rp
@@ -95918,22 +95918,22 @@ xE
 LB
 oD
 UG
-pp
-LE
-LE
-LE
-eX
+Qt
+XL
+XL
+XL
+Df
 rp
 kk
 vo
 vo
 bj
 rp
-Bd
-LE
-LE
-LE
-sV
+Eg
+XL
+XL
+XL
+AX
 UG
 oD
 Ps
@@ -96177,7 +96177,7 @@ EL
 EL
 oD
 Ps
-fR
+JZ
 rp
 rp
 rp
@@ -96260,18 +96260,18 @@ xE
 LB
 oD
 UG
-pp
+Qt
 UG
 UG
 UG
-yZ
+Rb
 rp
 kk
 vo
 vo
 bj
 rp
-vg
+tX
 UG
 UG
 UG
@@ -96519,7 +96519,7 @@ EL
 EL
 oD
 Ps
-fR
+JZ
 rp
 rp
 rp
@@ -97224,7 +97224,7 @@ Hu
 Hu
 Hu
 Hu
-rp
+QT
 Hu
 Hu
 Hu
@@ -97656,7 +97656,7 @@ gU
 gU
 gU
 gU
-Al
+JT
 gU
 gU
 gU
@@ -97998,7 +97998,7 @@ oD
 oD
 oD
 oD
-fI
+wi
 oD
 oD
 oD
@@ -98340,7 +98340,7 @@ oD
 oD
 oD
 oD
-TM
+Vp
 oD
 oD
 oD
@@ -98682,7 +98682,7 @@ oD
 oD
 oD
 oD
-EM
+uN
 oD
 oD
 oD
@@ -99024,7 +99024,7 @@ oD
 oD
 oD
 oD
-Ck
+Oz
 oD
 oD
 UG
@@ -99046,10 +99046,10 @@ UG
 UG
 UG
 UG
-jQ
-jQ
-jQ
-jQ
+kE
+kE
+kE
+kE
 hR
 hR
 hR
@@ -99366,31 +99366,31 @@ zM
 zM
 zM
 zM
-qE
+Va
 LU
 oD
 UG
-oB
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
+vx
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
 UG
 oD
 UG
-oB
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
+vx
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
 UG
 oD
 oD
@@ -99598,37 +99598,37 @@ EL
 oD
 oD
 oD
-oB
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
+vx
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
 UG
-oB
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
-Ic
+vx
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
+VQ
 zM
 zM
 zM
@@ -99636,7 +99636,7 @@ zM
 zM
 zM
 zM
-XE
+Xu
 ta
 rp
 kk
@@ -99683,16 +99683,16 @@ oD
 oD
 oD
 Ps
-Bm
-Bm
+KQ
+KQ
 rp
 kk
 vo
 vo
 bj
 rp
-Bm
-Bm
+KQ
+KQ
 YC
 oD
 oD
@@ -99712,27 +99712,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 oD
@@ -99940,7 +99940,7 @@ EL
 oD
 oD
 oD
-yZ
+Rb
 rO
 rO
 rO
@@ -99954,23 +99954,23 @@ rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
-qL
+So
+tX
+tj
 rp
 rp
 rp
@@ -100025,16 +100025,16 @@ oD
 oD
 oD
 Ps
-Bm
-Bm
+KQ
+KQ
 rp
 kk
 vo
 vo
 bj
 rp
-Bm
-Bm
+KQ
+KQ
 YC
 oD
 oD
@@ -100054,27 +100054,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 oD
@@ -100282,37 +100282,37 @@ EL
 oD
 oD
 oD
-pp
-KX
-KX
-KX
-KX
-KX
-KX
-KX
-KX
-Fe
-rO
-rO
-rO
-rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
-UG
-yZ
-Pt
-rO
-rO
 Qt
+LK
+LK
+LK
+LK
+LK
+LK
+LK
+LK
+EY
 rO
 rO
-Pt
-vg
-qL
+rO
+rO
+So
+So
+So
+So
+So
+tX
+UG
+Rb
+So
+rO
+rO
+JK
+rO
+rO
+So
+tX
+tj
 rp
 Hu
 Hu
@@ -100396,27 +100396,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 oD
@@ -100625,36 +100625,36 @@ oD
 oD
 oD
 UG
-oT
-oT
-oT
-oT
-oT
-oT
-oT
-oT
-pX
+qB
+qB
+qB
+qB
+qB
+qB
+qB
+qB
+RO
 rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
-qL
+So
+tX
+tj
 rp
 Hu
 Hu
@@ -100738,27 +100738,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 hR
@@ -100978,25 +100978,25 @@ vo
 Kd
 rO
 rO
-Qt
+JK
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-Qt
+JK
 rO
 rO
-Pt
-vg
-qL
+So
+tX
+tj
 rp
 Hu
 Hu
@@ -101080,27 +101080,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-yg
+CR
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-yg
+CR
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 hR
@@ -101309,36 +101309,36 @@ oD
 oD
 UG
 UG
-oT
-oT
-oT
-oT
-oT
-oT
-oT
-oT
-pX
+qB
+qB
+qB
+qB
+qB
+qB
+qB
+qB
+RO
 rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
-yg
+CR
 rO
 rO
-Pt
-vg
-qL
+So
+tX
+tj
 rp
 Hu
 Hu
@@ -101371,7 +101371,7 @@ vo
 vo
 vo
 nY
-mf
+vk
 cz
 mu
 rp
@@ -101422,27 +101422,27 @@ rp
 YC
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
+So
+tX
 UG
 oD
 hR
@@ -101650,37 +101650,37 @@ EL
 oD
 oD
 UG
-oB
-BX
-BX
-BX
-BX
-BX
-BX
-BX
-BX
-Qf
+vx
+zx
+zx
+zx
+zx
+zx
+zx
+zx
+zx
+jC
 rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Pt
+Rb
+So
 rO
 rO
 rO
 rO
 rO
-Pt
-vg
-qL
+So
+tX
+tj
 rp
 Hu
 Hu
@@ -101714,7 +101714,7 @@ vo
 vo
 vo
 cz
-fb
+jx
 QF
 rp
 Hu
@@ -101756,7 +101756,7 @@ Hu
 Hu
 Hu
 Hu
-Rg
+kz
 Hu
 Hu
 Hu
@@ -101764,27 +101764,27 @@ rp
 YC
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 hR
@@ -101992,7 +101992,7 @@ EL
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -102006,23 +102006,23 @@ rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
-qL
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
+tj
 rp
 Hu
 Hu
@@ -102106,27 +102106,27 @@ rp
 YC
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 hR
@@ -102334,37 +102334,37 @@ EL
 oD
 oD
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-eX
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+Df
 rO
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
-qL
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
+tj
 rp
 Hu
 Hu
@@ -102448,27 +102448,27 @@ rp
 YC
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 hR
@@ -102685,28 +102685,28 @@ UG
 UG
 UG
 UG
-pp
-eX
+Qt
+Df
 rO
 rO
 rO
-Pt
-Pt
-Pt
-Pt
-Pt
-vg
+So
+So
+So
+So
+So
+tX
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
-qL
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
+tj
 rp
 Hu
 Hu
@@ -102790,27 +102790,27 @@ rp
 YC
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
 UG
 oD
 hR
@@ -103028,27 +103028,27 @@ oD
 oD
 oD
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-sV
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+AX
 UG
-yZ
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-vg
-qL
+Rb
+SK
+SK
+SK
+SK
+SK
+SK
+SK
+tX
+tj
 rp
 QT
 QT
@@ -103132,27 +103132,27 @@ gU
 cI
 oD
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-sV
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+AX
 UG
 oD
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-sV
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+AX
 UG
 oD
 hR
@@ -103381,16 +103381,16 @@ UG
 UG
 UG
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-sV
-qL
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+AX
+tj
 rp
 aM
 QT
@@ -103732,7 +103732,7 @@ UG
 UG
 UG
 UG
-qL
+tj
 rp
 Hu
 Hu
@@ -103797,25 +103797,25 @@ oD
 oD
 oD
 UG
-oB
-GM
-GM
-GM
-GM
-Tw
-Tw
-Tw
-Tw
+vx
+iz
+iz
+iz
+iz
+wJ
+wJ
+wJ
+wJ
 UG
-oB
-GM
-GM
-GM
-GM
-Tw
-Tw
-Tw
-Tw
+vx
+iz
+iz
+iz
+iz
+wJ
+wJ
+wJ
+wJ
 UG
 UG
 oD
@@ -104139,7 +104139,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 rO
 rO
@@ -104149,7 +104149,7 @@ rO
 rO
 rO
 UG
-ck
+LQ
 rO
 rO
 rO
@@ -104158,7 +104158,7 @@ rO
 rO
 rO
 rO
-PF
+tU
 UG
 oD
 oD
@@ -104481,7 +104481,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Mc
@@ -104491,7 +104491,7 @@ Mc
 Mc
 rO
 UG
-ck
+LQ
 rO
 Mc
 Mc
@@ -104500,7 +104500,7 @@ Mc
 Mc
 Mc
 rO
-SS
+iE
 UG
 oD
 oD
@@ -104823,7 +104823,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -104831,9 +104831,9 @@ Hu
 Hu
 Hu
 rp
-KD
+pl
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -104841,8 +104841,8 @@ Hu
 Hu
 Hu
 rp
-KD
-KQ
+pl
+fa
 UG
 oD
 oD
@@ -105100,24 +105100,24 @@ oD
 UG
 UG
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-LE
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+XL
 gU
 gU
 gU
 gU
 gU
 gU
-mh
+HU
 rp
 Hu
 Hu
@@ -105165,7 +105165,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105173,9 +105173,9 @@ Hu
 Hu
 Hu
 rp
-nL
+zu
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105183,8 +105183,8 @@ Hu
 Hu
 Hu
 rp
-nL
-SS
+zu
+iE
 UG
 oD
 oD
@@ -105440,18 +105440,18 @@ oD
 oD
 oD
 UG
-oB
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-Tw
-PF
+vx
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+wJ
+tU
 UG
 oD
 oD
@@ -105507,7 +105507,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105515,9 +105515,9 @@ Hu
 Hu
 Hu
 rp
-nL
+zu
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105525,8 +105525,8 @@ Hu
 Hu
 Hu
 rp
-nL
-SS
+zu
+iE
 UG
 oD
 oD
@@ -105782,7 +105782,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -105793,8 +105793,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -105849,7 +105849,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105857,9 +105857,9 @@ Hu
 Hu
 Hu
 rp
-nL
+zu
 UG
-ck
+LQ
 rO
 Mc
 Hu
@@ -105867,8 +105867,8 @@ Hu
 Hu
 Hu
 rp
-nL
-SS
+zu
+iE
 UG
 oD
 oD
@@ -106124,7 +106124,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -106135,8 +106135,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -106191,7 +106191,7 @@ oD
 oD
 oD
 UG
-ck
+LQ
 rO
 Mc
 Mc
@@ -106201,7 +106201,7 @@ Mc
 rp
 rp
 UG
-ck
+LQ
 rO
 Mc
 Mc
@@ -106210,7 +106210,7 @@ Mc
 Mc
 rp
 rp
-SS
+iE
 UG
 oD
 oD
@@ -106466,19 +106466,19 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
 rO
 rO
-Qt
+JK
 rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -106533,7 +106533,7 @@ oD
 oD
 oD
 UG
-ap
+YY
 rO
 rO
 rO
@@ -106543,7 +106543,7 @@ rO
 rO
 rO
 UG
-ap
+YY
 rO
 rO
 rO
@@ -106552,7 +106552,7 @@ rO
 rO
 rO
 rO
-SS
+iE
 UG
 oD
 oD
@@ -106808,7 +106808,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -106819,8 +106819,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -106875,26 +106875,26 @@ oD
 oD
 oD
 UG
-pp
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-hO
+Qt
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+SS
 UG
-pp
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-hO
-sV
+Qt
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+AX
 UG
 oD
 oD
@@ -107150,7 +107150,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -107161,8 +107161,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -107492,19 +107492,19 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
-yg
-rO
-rO
-rO
-Qt
+CR
 rO
 rO
 rO
+JK
 rO
-tI
-we
+rO
+rO
+rO
+rC
+Pt
 rO
 rO
 rO
@@ -107834,7 +107834,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -107845,8 +107845,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -108176,7 +108176,7 @@ oD
 oD
 oD
 UG
-yZ
+Rb
 rO
 rO
 rO
@@ -108187,8 +108187,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -108518,19 +108518,19 @@ oD
 oD
 oD
 UG
-pp
-eX
-rO
-rO
-rO
-rO
 Qt
+Df
 rO
 rO
 rO
 rO
-tI
-we
+JK
+rO
+rO
+rO
+rO
+rC
+Pt
 rO
 rO
 rO
@@ -108861,8 +108861,8 @@ oD
 oD
 oD
 UG
-pp
-eX
+Qt
+Df
 rO
 rO
 rO
@@ -108871,8 +108871,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -109110,7 +109110,7 @@ Nh
 rp
 mu
 cz
-mf
+vk
 nY
 vo
 vo
@@ -109204,8 +109204,8 @@ oD
 oD
 oD
 UG
-pp
-eX
+Qt
+Df
 rO
 rO
 rO
@@ -109213,8 +109213,8 @@ rO
 rO
 rO
 rO
-tI
-we
+rC
+Pt
 rO
 rO
 rO
@@ -109547,15 +109547,15 @@ oD
 oD
 oD
 UG
-pp
-LE
-LE
-LE
-LE
-LE
-LE
-LE
-sV
+Qt
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+AX
 UG
 oD
 oD
@@ -111983,7 +111983,7 @@ oD
 oD
 oD
 Ps
-Sb
+qN
 xE
 xE
 xE
