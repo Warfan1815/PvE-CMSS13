@@ -39762,12 +39762,8 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/item/bedsheet/hop{
-	pixel_y = 0
-	},
-/obj/structure/bed{
-	pixel_y = 0
-	},
+/obj/item/bedsheet/hop,
+/obj/structure/bed,
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
 "hvH" = (
@@ -48993,8 +48989,7 @@
 /area/almayer/shipboard/brig/cic_hallway)
 "lnG" = (
 /obj/structure/machinery/cm_vending/clothing/dress{
-	req_access = list(1);
-	pixel_y = 0
+	req_access = list(1)
 	},
 /turf/open/floor/almayer{
 	icon_state = "cargo"
@@ -49584,9 +49579,7 @@
 /area/almayer/living/auxiliary_officer_office)
 "lxJ" = (
 /obj/structure/machinery/light,
-/obj/structure/machinery/cm_vending/gear/commanding_officer{
-	pixel_y = 0
-	},
+/obj/structure/machinery/cm_vending/gear/commanding_officer,
 /turf/open/floor/almayer{
 	icon_state = "cargo"
 	},
@@ -54922,9 +54915,7 @@
 	},
 /area/almayer/hallways/starboard_hallway)
 "nFW" = (
-/obj/structure/machinery/cm_vending/clothing/commanding_officer{
-	pixel_y = 0
-	},
+/obj/structure/machinery/cm_vending/clothing/commanding_officer,
 /turf/open/floor/almayer{
 	icon_state = "cargo"
 	},
@@ -68215,8 +68206,7 @@
 "tkK" = (
 /obj/structure/bed/bedroll{
 	name = "cat bed";
-	desc = "A bed of cotton fabric, purposely made for a cat to comfortably sleep on.";
-	pixel_y = 0
+	desc = "A bed of cotton fabric, purposely made for a cat to comfortably sleep on."
 	},
 /mob/living/simple_animal/cat/Jones{
 	dir = 8
