@@ -244,6 +244,9 @@ var/const/MAX_SAVE_SLOTS = 10
 	/// If this client has auto observe enabled, used by /datum/orbit_menu
 	var/auto_observe = TRUE
 
+	//loadout lists already loaded
+	var/list/loadouts = list()
+
 /datum/preferences/New(client/C)
 	key_bindings = deep_copy_list(GLOB.hotkey_keybinding_list_by_key) // give them default keybinds and update their movement keys
 	macros = new(C, src)
@@ -651,7 +654,7 @@ var/const/MAX_SAVE_SLOTS = 10
 //splitJobs - Allows you split the table by job. You can make different tables for each department by including their heads. Defaults to CE to make it look nice.
 //width - Screen' width.
 //height - Screen's height.
-/datum/preferences/proc/SetChoices(mob/user, limit = 19, list/splitJobs = list(JOB_CHIEF_REQUISITION), width = 480, height = 450)
+/datum/preferences/proc/SetChoices(mob/user, limit = 19, list/splitJobs = list(JOB_CHIEF_REQUISITION), width = 530, height = 450)
 	if(!RoleAuthority)
 		return
 
@@ -661,7 +664,7 @@ var/const/MAX_SAVE_SLOTS = 10
 
 	var/HTML = "<body>"
 	HTML += "<tt><center>"
-	HTML += "<b>Choose occupation chances</b><br>Unavailable occupations are crossed out.<br><br>"
+	HTML += "<b>Choose occupation chances and set equipment for roles</b><br>Unavailable occupations are crossed out.<br><br>"
 	HTML += "<center><a href='?_src_=prefs;preference=job;task=close'>Done</a></center><br>" // Easier to press up here.
 	HTML += "<table width='100%' cellpadding='1' cellspacing='0' style='color: black;'><tr><td valign='top' width='20%'>" // Table within a table for alignment, also allows you to easily add more colomns.
 	HTML += "<table width='100%' cellpadding='1' cellspacing='0'>"
@@ -741,7 +744,9 @@ var/const/MAX_SAVE_SLOTS = 10
 			if (j < 4)
 				HTML += "&nbsp"
 
-		HTML += "</td></tr>"
+		HTML += "</td><td width='10%' align='center'>"
+
+		HTML +="<a href='?_src_=prefs;preference=equip;task=input;title=[job.title];selection_class=[job.selection_class]'>EQUIP</a></tr>"
 
 	HTML += "</td></tr></table>"
 	HTML += "</center></table>"
@@ -1994,6 +1999,15 @@ var/const/MAX_SAVE_SLOTS = 10
 
 				if("change_menu")
 					current_menu = href_list["menu"]
+
+				if("equip")
+					var/specific_job_path = text2path("/datum/loadout/[href_list["title"]]")
+					for(var/loadout in loadouts)
+						if(istype(loadout, specific_job_path))
+							loadout.tgui_interact(user)
+							return
+					new_loadout = new specific_job_path
+					loadouts += new
 
 	ShowChoices(user)
 	return 1
