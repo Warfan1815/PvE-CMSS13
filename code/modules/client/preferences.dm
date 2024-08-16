@@ -746,7 +746,7 @@ var/const/MAX_SAVE_SLOTS = 10
 
 		HTML += "</td><td width='10%' align='center'>"
 
-		HTML +="<a href='?_src_=prefs;preference=equip;task=input;title=[job.title];selection_class=[job.selection_class]'>EQUIP</a></tr>"
+		HTML +="<a href='?_src_=prefs;preference=equip;task=input;title=[job.title];job_has_loadout=[job.has_loadout];'>EQUIP</a></tr>"
 
 	HTML += "</td></tr></table>"
 	HTML += "</center></table>"
@@ -1763,6 +1763,21 @@ var/const/MAX_SAVE_SLOTS = 10
 
 					SetChoices(user)
 					return
+
+				if("equip")
+					if(href_list["job_has_loadout"])
+						var/specific_job_path = text2path("/datum/loadout/[lowertext(href_list["title"])]")
+						var/datum/loadout/loadout
+						for(var/L in loadouts)
+							if(istype(L, specific_job_path))
+								loadout = L
+						if(!loadout)
+							loadout = new specific_job_path
+							loadouts += loadout
+						loadout.tgui_interact(user)
+					else
+						to_chat(user, SPAN_WARNING("This job isn't equipable before roundstart!"))
+
 		else
 			switch(href_list["preference"])
 				if("publicity")
@@ -1999,15 +2014,6 @@ var/const/MAX_SAVE_SLOTS = 10
 
 				if("change_menu")
 					current_menu = href_list["menu"]
-
-				if("equip")
-					var/specific_job_path = text2path("/datum/loadout/[href_list["title"]]")
-					for(var/loadout in loadouts)
-						if(istype(loadout, specific_job_path))
-							loadout.tgui_interact(user)
-							return
-					new_loadout = new specific_job_path
-					loadouts += new
 
 	ShowChoices(user)
 	return 1

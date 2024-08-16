@@ -13,6 +13,8 @@
 	var/supervisors = "" //Supervisors, who this person answers to directly. Should be a string, shown to the player when they enter the game.
 	var/selection_class = "" // Job Selection span class (for background color)
 
+	var/has_loadout = FALSE // whether or not clients can equip this with a loadout pre-roundstart
+
 	var/late_joinable = TRUE
 
 	var/flags_startup_parameters = NO_FLAGS //These flags are used to determine how to load the role, and some other parameters.
