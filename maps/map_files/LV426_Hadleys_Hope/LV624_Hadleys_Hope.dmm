@@ -1,4 +1,20 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = 6;
+	pixel_x = 3
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = -2;
+	pixel_x = -2
+	},
+/turf/open/floor/strata,
+/area/space)
 "ab" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ashtray/glass{
@@ -106,6 +122,14 @@
 /obj/item/pipe,
 /turf/open/gm/river,
 /area/space)
+"al" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
+	dir = 1;
+	name = "\improper Tannens Casino Outer Airlock"
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
 "am" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/strata{
@@ -192,6 +216,27 @@
 /obj/item/tool/stamp/weyyu{
 	pixel_y = -3;
 	pixel_x = -7
+	},
+/turf/open/floor/strata,
+/area/space)
+"av" = (
+/obj/structure/surface/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/yellow{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/purple{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
+	pixel_y = -4;
+	pixel_x = 3
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -860,15 +905,6 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
-"cg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/sofa/south/grey/right,
-/obj/structure/sign/poster/ad{
-	pixel_x = 1;
-	pixel_y = 32
-	},
-/turf/open/floor/strata,
-/area/space)
 "ch" = (
 /obj/structure/machinery/washing_machine,
 /obj/structure/bedsheetbin{
@@ -898,6 +934,16 @@
 	dir = 1
 	},
 /turf/open/floor/strata,
+/area/space)
+"cl" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4;
+	icon_state = "p_stair_full";
+	layer = 3
+	},
+/obj/structure/platform/strata/metal,
+/turf/open/auto_turf/shale/layer1,
 /area/space)
 "cm" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
@@ -1142,22 +1188,6 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"cX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/reinforced/black,
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_y = 7;
-	pixel_x = -8
-	},
-/obj/item/clothing/shoes/jackboots,
-/obj/item/newspaper{
-	pixel_x = -1;
-	pixel_y = 28;
-	name = "banned persons list"
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
 "cZ" = (
 /obj/structure/filingcabinet{
 	pixel_x = -8
@@ -1264,6 +1294,13 @@
 	pixel_y = 32
 	},
 /turf/open/floor/strata,
+/area/space)
+"dn" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Dweling Airlock";
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "do" = (
 /obj/item/weapon/twohanded/folded_metal_chair,
@@ -1460,12 +1497,6 @@
 /obj/item/tool/kitchen/utensil/pknife,
 /turf/open/floor/strata,
 /area/space)
-"dG" = (
-/obj/structure/pipes/vents/pump,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/double/blue,
-/turf/open/floor/strata,
-/area/space)
 "dH" = (
 /obj/item/reagent_container/food/drinks/coffeecup{
 	pixel_y = 9
@@ -1509,14 +1540,6 @@
 	dir = 6;
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"dK" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/head/manager{
-	pixel_y = 3;
-	pixel_x = -4
-	},
-/turf/open/floor/strata,
 /area/space)
 "dL" = (
 /obj/structure/surface/rack,
@@ -1601,15 +1624,6 @@
 	dir = 8
 	},
 /turf/open/auto_turf/shale/layer1,
-/area/space)
-"dS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/sofa/south/grey/left,
-/obj/structure/sign/poster/ad{
-	pixel_x = 1;
-	pixel_y = 32
-	},
-/turf/open/floor/strata,
 /area/space)
 "dT" = (
 /obj/structure/surface/table/reinforced/black,
@@ -2879,13 +2893,6 @@
 /obj/effect/decal/strata_decals/grime/grime3,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
-"gE" = (
-/obj/effect/decal/strata_decals/grime/grime4,
-/obj/structure/machinery/light/double/blue{
-	dir = 1
-	},
-/turf/open/floor/strata,
-/area/space)
 "gF" = (
 /obj/structure/surface/rack,
 /obj/item/packageWrap{
@@ -3386,6 +3393,13 @@
 	},
 /turf/open/floor/strata,
 /area/space)
+"hL" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Staff Quarters Airlock";
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
 "hM" = (
 /obj/structure/platform_decoration,
 /obj/structure/platform{
@@ -3578,13 +3592,6 @@
 	desc = "A small computer that appears to be running some sort of text-based multiplayer roleplaying game. How sad."
 	},
 /turf/open/floor/strata,
-/area/space)
-"in" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	name = "\improper Staff Quarters Airlock";
-	dir = 1
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "io" = (
 /obj/structure/platform/strata/metal{
@@ -3941,6 +3948,13 @@
 	},
 /turf/open/floor/strata,
 /area/space)
+"jc" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata,
+/area/space)
 "jd" = (
 /obj/structure/platform{
 	dir = 4;
@@ -4064,27 +4078,6 @@
 	dir = 4
 	},
 /obj/structure/pipes/vents/pump,
-/turf/open/floor/strata,
-/area/space)
-"jt" = (
-/obj/structure/surface/rack,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = 4;
-	pixel_x = 1
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
-	pixel_y = -3;
-	pixel_x = 4
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = 5;
-	pixel_x = -8
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/green{
-	pixel_y = -4;
-	pixel_x = -6
-	},
 /turf/open/floor/strata,
 /area/space)
 "jv" = (
@@ -4793,6 +4786,13 @@
 	},
 /obj/item/storage/box/masks{
 	pixel_y = -2
+	},
+/turf/open/floor/strata,
+/area/space)
+"kV" = (
+/obj/effect/decal/strata_decals/grime/grime4,
+/obj/structure/machinery/light/double/blue{
+	dir = 1
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -6061,6 +6061,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
 /area/space)
+"nT" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = 7;
+	pixel_x = -4
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = 6
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = -2;
+	pixel_x = -7
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = -2
+	},
+/turf/open/floor/strata,
+/area/space)
 "nW" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -6215,6 +6233,15 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/strata,
+/area/space)
+"on" = (
+/obj/structure/platform/strata/metal{
+	pixel_y = -6
+	},
+/turf/closed/wall/strata_outpost_ribbed{
+	unacidable = 1;
+	damage_cap = 500000
+	},
 /area/space)
 "oo" = (
 /obj/structure/surface/table/reinforced/black,
@@ -6382,10 +6409,6 @@
 /obj/item/trash/snack_bowl,
 /turf/open/floor/strata,
 /area/space)
-"oI" = (
-/obj/structure/surface/table/gamblingtable,
-/turf/open/floor/carpet,
-/area/space)
 "oJ" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/drinks/cans/beer{
@@ -6433,13 +6456,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"oN" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
-/area/space)
 "oO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/tool/kitchen/knife,
@@ -6477,6 +6493,25 @@
 	dir = 8
 	},
 /obj/item/trash/tray,
+/turf/open/floor/strata,
+/area/space)
+"oU" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/head/hardhat{
+	pixel_y = 1;
+	pixel_x = -3
+	},
+/obj/item/clothing/head/CMB{
+	pixel_x = 5
+	},
+/obj/item/clothing/head/soft/trucker{
+	pixel_y = -8;
+	pixel_x = -3
+	},
+/obj/item/clothing/head/soft/trucker/red{
+	pixel_y = -9;
+	pixel_x = 4
+	},
 /turf/open/floor/strata,
 /area/space)
 "oV" = (
@@ -7280,6 +7315,12 @@
 	dir = 6;
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"qA" = (
+/obj/structure/pipes/vents/pump,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double/blue,
+/turf/open/floor/strata,
 /area/space)
 "qB" = (
 /obj/structure/blocker/invisible_wall,
@@ -8388,7 +8429,7 @@
 /area/space)
 "tb" = (
 /obj/structure/curtain/red,
-/turf/open/floor/strata,
+/turf/open/floor/carpet,
 /area/space)
 "tc" = (
 /obj/structure/ladder{
@@ -8506,29 +8547,6 @@
 /obj/structure/machinery/door/airlock/almayer/secure{
 	name = "\improper Office Restroom 2 Airlock";
 	dir = 8
-	},
-/turf/open/floor/strata,
-/area/space)
-"to" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = 5;
-	pixel_x = -4
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/yellow{
-	pixel_y = 4;
-	pixel_x = 6
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = -1;
-	pixel_x = -5
-	},
-/obj/structure/machinery/light/double/blue{
-	dir = 1
-	},
-/obj/item/clothing/suit/storage/CMB/marshal{
-	pixel_y = -4;
-	pixel_x = 5
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -8761,31 +8779,6 @@
 	},
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/shale/layer1,
-/area/space)
-"tO" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/accessory/poncho/black{
-	pixel_y = 2;
-	pixel_x = 2;
-	name = "USCM Surplus Poncho"
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = -3;
-	pixel_x = 5
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
-	pixel_y = -3;
-	pixel_x = -4
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_y = 5;
-	pixel_x = -8
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/purple{
-	pixel_x = 6;
-	pixel_y = 5
-	},
-/turf/open/floor/strata,
 /area/space)
 "tP" = (
 /obj/item/clothing/under/tshirt/w_br{
@@ -9860,15 +9853,6 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"wm" = (
-/obj/structure/platform/strata/metal{
-	pixel_y = -6
-	},
-/turf/closed/wall/strata_outpost_ribbed{
-	unacidable = 1;
-	damage_cap = 500000
-	},
-/area/space)
 "wo" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/mask/gas{
@@ -10124,10 +10108,6 @@
 	dir = 6;
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"wP" = (
-/obj/structure/closet/secure_closet/freezer/fridge/groceries,
-/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "wQ" = (
 /obj/structure/platform,
@@ -10538,6 +10518,22 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata,
+/area/space)
+"xI" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Staff Quarters Airlock";
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"xJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/sofa/south/grey/left,
+/obj/structure/sign/poster/ad{
+	pixel_x = 1;
+	pixel_y = 32
+	},
 /turf/open/floor/strata,
 /area/space)
 "xL" = (
@@ -11312,6 +11308,27 @@
 	icon_state = "floor3"
 	},
 /area/space)
+"zt" = (
+/obj/structure/surface/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = 4;
+	pixel_x = 1
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
+	pixel_y = -3;
+	pixel_x = 4
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = 5;
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/green{
+	pixel_y = -4;
+	pixel_x = -6
+	},
+/turf/open/floor/strata,
+/area/space)
 "zu" = (
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
@@ -11977,19 +11994,6 @@
 	dir = 6;
 	icon_state = "multi_tiles"
 	},
-/area/space)
-"AU" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = 6;
-	pixel_x = -4
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = -2;
-	pixel_x = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
 /area/space)
 "AV" = (
 /obj/item/trash/hotdog,
@@ -13002,27 +13006,6 @@
 	},
 /turf/open/floor/strata,
 /area/space)
-"CW" = (
-/obj/structure/surface/rack,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/yellow{
-	pixel_y = 4;
-	pixel_x = 6
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/purple{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
-	pixel_x = -6;
-	pixel_y = -1
-	},
-/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
-	pixel_y = -4;
-	pixel_x = 3
-	},
-/turf/open/floor/strata,
-/area/space)
 "CX" = (
 /obj/structure/window/framed/strata/reinforced,
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -13470,6 +13453,22 @@
 	color = "#5e5d5d";
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"DN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/reinforced/black,
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_y = 7;
+	pixel_x = -8
+	},
+/obj/item/clothing/shoes/jackboots,
+/obj/item/newspaper{
+	pixel_x = -1;
+	pixel_y = 28;
+	name = "banned persons list"
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "DO" = (
 /obj/effect/decal/cleanable/generic,
@@ -14335,6 +14334,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"FL" = (
+/obj/structure/machinery/disposal,
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
+/turf/open/floor/strata,
+/area/space)
 "FM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform{
@@ -14806,6 +14812,19 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"GE" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_y = -2;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata,
+/area/space)
 "GG" = (
 /obj/structure/largecrate/supply/supplies/plasteel,
 /turf/open/floor/strata,
@@ -15042,6 +15061,14 @@
 	},
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"Hj" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/head/manager{
+	pixel_y = 3;
+	pixel_x = -4
+	},
+/turf/open/floor/strata,
+/area/space)
 "Hk" = (
 /obj/item/lightstick/red/spoke/planted{
 	pixel_x = 14;
@@ -15238,13 +15265,6 @@
 /obj/structure/largecrate/random/secure,
 /obj/item/map/current_map,
 /turf/open/floor/carpet,
-/area/space)
-"HI" = (
-/obj/structure/machinery/disposal,
-/obj/structure/machinery/light/double/blue{
-	dir = 1
-	},
-/turf/open/floor/strata,
 /area/space)
 "HJ" = (
 /obj/structure/surface/rack,
@@ -15857,14 +15877,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Jd" = (
-/obj/structure/prop/server_equipment/yutani_server{
-	density = 0;
-	pixel_y = 5
-	},
-/obj/structure/machinery/atm,
-/turf/open/floor/strata,
-/area/space)
 "Jf" = (
 /obj/structure/platform{
 	dir = 8;
@@ -16017,6 +16029,10 @@
 /turf/closed/shuttle/elevator{
 	dir = 6
 	},
+/area/space)
+"Jy" = (
+/obj/structure/closet/secure_closet/freezer/fridge/groceries,
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Jz" = (
 /obj/structure/largecrate/random/secure,
@@ -16309,11 +16325,12 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Ke" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	name = "\improper Staff Quarters Airlock";
-	dir = 8
+/obj/structure/prop/server_equipment/yutani_server{
+	density = 0;
+	pixel_y = 5
 	},
-/turf/open/floor/plating/plating_catwalk/strata,
+/obj/structure/machinery/atm,
+/turf/open/floor/strata,
 /area/space)
 "Kf" = (
 /obj/structure/filingcabinet{
@@ -17554,6 +17571,31 @@
 /obj/item/trash/cigbutt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"MX" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/accessory/poncho/black{
+	pixel_y = 2;
+	pixel_x = 2;
+	name = "USCM Surplus Poncho"
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = -3;
+	pixel_x = 5
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/red{
+	pixel_y = -3;
+	pixel_x = -4
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = 5;
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/purple{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/turf/open/floor/strata,
+/area/space)
 "MY" = (
 /obj/structure/closet,
 /obj/item/clothing/under/tshirt/w_br{
@@ -17922,16 +17964,6 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
-"NO" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 4;
-	icon_state = "p_stair_full";
-	layer = 3
-	},
-/obj/structure/platform/strata/metal,
-/turf/open/auto_turf/shale/layer1,
 /area/space)
 "NP" = (
 /obj/structure/airlock_assembly,
@@ -18910,6 +18942,29 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
+"Qq" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/yellow{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/clothing/suit/storage/snow_suit/survivor/parka/navy{
+	pixel_y = -1;
+	pixel_x = -5
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
+/obj/item/clothing/suit/storage/CMB/marshal{
+	pixel_y = -4;
+	pixel_x = 5
+	},
+/turf/open/floor/strata,
+/area/space)
 "Qr" = (
 /obj/item/reagent_container/food/drinks/coffee{
 	pixel_y = 11;
@@ -19017,13 +19072,6 @@
 /turf/open/floor/strata{
 	icon_state = "floor3"
 	},
-/area/space)
-"QH" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "QK" = (
 /obj/structure/surface/table/reinforced/black,
@@ -19867,24 +19915,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"SH" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = 7;
-	pixel_x = -4
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = 6
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = -2;
-	pixel_x = -7
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = -2
-	},
-/turf/open/floor/strata,
-/area/space)
 "SI" = (
 /obj/structure/largecrate/random/secure,
 /obj/effect/decal/cleanable/dirt,
@@ -20273,6 +20303,15 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/space)
+"TJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/sofa/south/grey/right,
+/obj/structure/sign/poster/ad{
+	pixel_x = 1;
+	pixel_y = 32
+	},
+/turf/open/floor/strata,
+/area/space)
 "TL" = (
 /obj/structure/bed{
 	layer = 2.01
@@ -20280,14 +20319,6 @@
 /obj/item/bedsheet/hos,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
-/area/space)
-"TM" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
-	dir = 1;
-	name = "\improper Tannens Casino Outer Airlock"
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "TN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -20571,13 +20602,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"Ur" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	name = "\improper Dweling Airlock";
-	dir = 8
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/space)
 "Ut" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -20839,6 +20863,10 @@
 	dir = 8;
 	icon_state = "multi_tiles"
 	},
+/area/space)
+"Vc" = (
+/obj/structure/ladder,
+/turf/open/floor/carpet,
 /area/space)
 "Ve" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -21711,22 +21739,6 @@
 	icon_state = "multi_tiles"
 	},
 /area/space)
-"WW" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = 6;
-	pixel_x = -4
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = 6;
-	pixel_x = 3
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_y = -2;
-	pixel_x = -2
-	},
-/turf/open/floor/strata,
-/area/space)
 "WY" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -21845,6 +21857,10 @@
 /obj/effect/decal/cleanable/blood/drip,
 /obj/item/trash/cigbutt,
 /turf/open/floor/plating/plating_catwalk/strata,
+/area/space)
+"Xm" = (
+/obj/structure/surface/table/gamblingtable,
+/turf/open/floor/carpet,
 /area/space)
 "Xn" = (
 /obj/structure/surface/rack,
@@ -22212,6 +22228,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
+"Yi" = (
+/obj/structure/curtain/red,
+/turf/open/floor/strata,
+/area/space)
 "Yk" = (
 /obj/structure/platform{
 	dir = 8;
@@ -22569,7 +22589,10 @@
 /turf/open/auto_turf/shale/layer1,
 /area/space)
 "YZ" = (
-/obj/structure/curtain/red,
+/obj/structure/machinery/door/airlock/almayer/secure{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "Za" = (
@@ -23006,25 +23029,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/camera/autoname{
 	dir = 8
-	},
-/turf/open/floor/strata,
-/area/space)
-"ZS" = (
-/obj/structure/surface/rack,
-/obj/item/clothing/head/hardhat{
-	pixel_y = 1;
-	pixel_x = -3
-	},
-/obj/item/clothing/head/CMB{
-	pixel_x = 5
-	},
-/obj/item/clothing/head/soft/trucker{
-	pixel_y = -8;
-	pixel_x = -3
-	},
-/obj/item/clothing/head/soft/trucker/red{
-	pixel_y = -9;
-	pixel_x = 4
 	},
 /turf/open/floor/strata,
 /area/space)
@@ -50733,7 +50737,7 @@ QT
 QT
 QT
 QT
-Ke
+hL
 QT
 QT
 QT
@@ -51073,7 +51077,7 @@ MY
 QT
 ae
 Rs
-oN
+jc
 QT
 vo
 Cu
@@ -52440,10 +52444,10 @@ QT
 QT
 QT
 QT
-Ke
+hL
 QT
 QT
-Ur
+dn
 QT
 QT
 kk
@@ -54150,10 +54154,10 @@ QT
 QT
 QT
 QT
-Ke
+hL
 QT
 QT
-Ke
+hL
 QT
 QT
 kk
@@ -55518,7 +55522,7 @@ qT
 oG
 QT
 yi
-wP
+Jy
 CF
 QT
 Rs
@@ -55863,7 +55867,7 @@ QT
 QT
 QT
 QT
-Ke
+hL
 QT
 QT
 QT
@@ -55872,7 +55876,7 @@ fY
 QT
 QT
 QT
-Ke
+hL
 QT
 QT
 QT
@@ -56554,7 +56558,7 @@ qx
 vo
 vo
 ku
-in
+xI
 vo
 vo
 Rs
@@ -56886,7 +56890,7 @@ FW
 aL
 mi
 Yg
-tb
+Yi
 JD
 Rt
 Rs
@@ -56902,7 +56906,7 @@ vo
 vo
 vW
 QT
-gE
+kV
 vo
 Rs
 vo
@@ -59886,11 +59890,11 @@ QT
 QT
 hR
 JS
-wm
+on
 SX
 SX
 SX
-NO
+cl
 QT
 QT
 QT
@@ -60231,16 +60235,16 @@ JS
 wB
 wB
 II
-TM
+al
 wB
 wB
 Hu
 Hu
-we
+Lf
 Hu
 Hu
 Hu
-vo
+Hu
 Hu
 Hu
 QT
@@ -60577,13 +60581,13 @@ II
 Qj
 wB
 Hu
-oI
+Xm
 lh
 lh
-oI
+Xm
 lh
 lh
-oI
+Xm
 Hu
 QT
 Ml
@@ -60919,13 +60923,13 @@ II
 Hm
 wB
 Hu
-oI
+Xm
 lh
 lh
-oI
+Xm
 lh
 lh
-oI
+Xm
 Hu
 QT
 Ml
@@ -61261,13 +61265,13 @@ yM
 wB
 wB
 Hu
+lh
+lh
 Hu
-vo
 Hu
 Hu
-Hu
-vo
-Hu
+lh
+lh
 Hu
 QT
 Ml
@@ -61597,19 +61601,19 @@ QT
 oD
 Ps
 QT
-Jd
+Ke
 vo
 vo
-dG
+qA
+QT
+QT
+lh
+lh
 QT
 QT
 QT
-vo
-QT
-QT
-QT
-vo
-QT
+lh
+lh
 QT
 QT
 Ml
@@ -61939,20 +61943,20 @@ QT
 oD
 Ps
 QT
-dS
+xJ
 Rs
 vo
 vo
-YZ
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-aM
+tb
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+Vc
 QT
 Ml
 QT
@@ -62281,20 +62285,20 @@ QT
 oD
 Ps
 QT
-cg
+TJ
 vo
 vo
 Rs
-YZ
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-vo
-aM
+tb
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+Vc
 QT
 Ml
 Og
@@ -62623,7 +62627,7 @@ QT
 oD
 Ps
 QT
-HI
+FL
 vo
 JD
 Hu
@@ -62634,7 +62638,7 @@ IH
 Hu
 Hu
 IH
-vo
+lh
 Hu
 QT
 QT
@@ -62966,7 +62970,7 @@ hR
 Ps
 QT
 QT
-cX
+DN
 sD
 QT
 QT
@@ -63307,9 +63311,9 @@ hR
 hR
 JS
 QT
-CW
+av
 iS
-SH
+nT
 sD
 Hu
 Hu
@@ -63318,7 +63322,7 @@ Hu
 QT
 Hu
 Hu
-vo
+lh
 Hu
 Hu
 QT
@@ -63649,9 +63653,9 @@ hR
 hR
 JS
 QT
-jt
+zt
 vo
-WW
+aa
 QT
 Hu
 Hu
@@ -63660,7 +63664,7 @@ Hu
 QT
 Hu
 Hu
-vo
+lh
 Hu
 Hu
 QT
@@ -63991,9 +63995,9 @@ hR
 hR
 JS
 QT
-to
+Qq
 vo
-AU
+GE
 QT
 Hu
 Hu
@@ -64002,7 +64006,7 @@ Hu
 QT
 Hu
 Hu
-vo
+lh
 Hu
 Hu
 QT
@@ -64333,10 +64337,10 @@ hR
 hR
 JS
 QT
-tO
+MX
 Rs
 vo
-QH
+YZ
 vo
 vo
 vo
@@ -64344,7 +64348,7 @@ Hu
 QT
 Hu
 Hu
-vo
+lh
 Hu
 Hu
 QT
@@ -64676,8 +64680,8 @@ hR
 JS
 QT
 CF
-ZS
-dK
+oU
+Hj
 QT
 Hu
 Hu
@@ -64686,7 +64690,7 @@ Hu
 QT
 Hu
 Hu
-vo
+lh
 Hu
 Hu
 QT
