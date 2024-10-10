@@ -2656,7 +2656,7 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "cqB" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -10352,7 +10352,7 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/space)
 "iEO" = (
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "iEW" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -13710,7 +13710,7 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "lnG" = (
 /obj/structure/platform{
@@ -25720,7 +25720,7 @@
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "vpB" = (
 /obj/structure/surface/table/reinforced/black,
@@ -26750,7 +26750,7 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "wbg" = (
 /obj/structure/platform/strata/metal{
@@ -28647,7 +28647,7 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/rock,
 /area/space)
 "xzv" = (
 /obj/item/clothing/shoes/jackboots{
