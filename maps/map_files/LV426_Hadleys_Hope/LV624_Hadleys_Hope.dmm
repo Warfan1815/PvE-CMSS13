@@ -407,7 +407,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 8
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "apl" = (
 /obj/effect/decal/cleanable/blood/gibs/robot{
@@ -757,6 +757,13 @@
 	icon_state = "floor3"
 	},
 /area/lv522/indoors/a_block)
+"aCl" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/lv522/indoors/a_block)
 "aEC" = (
 /obj/item/trash/cigbutt,
 /turf/open/auto_turf/sand_white/layer0,
@@ -949,7 +956,7 @@
 	id = "southwing13";
 	name = "window shutter control"
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "aOq" = (
 /obj/effect/decal/warning_stripes{
@@ -2237,6 +2244,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
+"bGe" = (
+/obj/structure/closet/secure_closet/freezer/fridge/full,
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
+/area/lv522/indoors/a_block)
 "bGg" = (
 /obj/structure/platform{
 	dir = 4;
@@ -3189,12 +3203,16 @@
 /obj/item/clothing/under/colonist/ua_boiler{
 	pixel_y = 2
 	},
-/obj/item/clothing/under/colonist/ua_civvies,
+/obj/item/clothing/under/colonist/ua_civvies{
+	pixel_x = -1
+	},
 /obj/item/clothing/under/colonist/workwear/blue{
 	pixel_y = -8
 	},
 /obj/item/clothing/accessory/poncho/black{
-	name = "USCM Surplus Poncho"
+	name = "USCM Surplus Poncho";
+	pixel_y = -1;
+	layer = 3.01
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
@@ -3627,18 +3645,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
-"cDP" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/device/flashlight/lamp{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -5;
-	pixel_y = -3
-	},
-/turf/open/floor/strata,
-/area/lv522/indoors/a_block)
 "cDX" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/prop/almayer/CICmap{
@@ -4066,6 +4072,7 @@
 	},
 /obj/item/bedsheet/hop,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
 "cUf" = (
@@ -4332,7 +4339,8 @@
 	pixel_y = -2
 	},
 /obj/item/clothing/under/colonist/boilersuit{
-	pixel_y = -7
+	pixel_y = -7;
+	pixel_x = -1
 	},
 /obj/item/clothing/head/hardhat/white{
 	pixel_y = 7;
@@ -6264,6 +6272,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
+"erg" = (
+/obj/structure/pipes/vents/pump,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/lv522/indoors/a_block)
 "eri" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -6671,9 +6684,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/cigbutt,
 /obj/item/clothing/under/colonist/workwear{
-	pixel_y = 4
+	pixel_y = 4;
+	pixel_x = 1
 	},
-/obj/item/clothing/under/colonist/workwear,
+/obj/item/clothing/under/colonist/workwear{
+	pixel_x = -1
+	},
 /obj/item/clothing/under/colonist/workwear{
 	pixel_y = -6
 	},
@@ -7160,6 +7176,7 @@
 	color = "#FFDBBB";
 	name = "dirty tray"
 	},
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "eXt" = (
@@ -7180,6 +7197,29 @@
 	dir = 6;
 	icon_state = "multi_tiles"
 	},
+/area/lv522/indoors/a_block)
+"eYD" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/prop/helmetgarb/prescription_bottle{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/prop/helmetgarb/prescription_bottle{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/structure/machinery/door_control{
+	name = "Window Shutter Control";
+	id = "westwing15";
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "eYF" = (
 /obj/structure/platform/strata/metal{
@@ -7315,6 +7355,45 @@
 /obj/item/clothing/head/soft/trucker,
 /turf/open/floor/strata,
 /area/lv522/outdoors/colony_streets)
+"fcH" = (
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 11;
+	pixel_x = -7
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 12
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 12;
+	pixel_x = 8
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 7;
+	pixel_x = -8
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 9;
+	pixel_x = 1
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 8;
+	pixel_x = 9
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 4;
+	pixel_x = 1
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/structure/closet/crate,
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "fcY" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/circuitboard{
@@ -10039,7 +10118,7 @@
 "gUF" = (
 /obj/structure/machinery/botany,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "gUJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10084,6 +10163,28 @@
 /turf/open/floor/strata{
 	icon_state = "multi_tiles"
 	},
+/area/lv522/indoors/a_block)
+"gWc" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/drinks/drinkingglass{
+	icon_state = "shotglass";
+	pixel_x = -2;
+	pixel_y = 19
+	},
+/obj/item/trash/tray{
+	pixel_y = 17;
+	pixel_x = 5
+	},
+/obj/item/trash/tray{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/item/reagent_container/food/drinks/drinkingglass{
+	icon_state = "shotglass";
+	pixel_x = 18;
+	pixel_y = 7
+	},
+/turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "gWm" = (
 /obj/structure/machinery/vending/cigarette/free,
@@ -10793,13 +10894,13 @@
 /obj/item/prop/magazine/book{
 	name = "Australia! To Apocalypse By Oliver Carnwell";
 	desc = "A book covering the Australian Wars and the Nuking of Canberra";
-	pixel_y = 10;
+	pixel_y = 8;
 	pixel_x = 8
 	},
 /obj/item/prop/magazine/book{
 	name = "1984 By George Orwell";
 	desc = "A book covering the dystopia of a literal tyranny in the year 1984";
-	pixel_y = 10;
+	pixel_y = 8;
 	pixel_x = -1
 	},
 /obj/item/prop/magazine/book{
@@ -10857,7 +10958,10 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/lv522/indoors/a_block)
 "huJ" = (
 /obj/structure/platform/strata/metal{
@@ -12656,6 +12760,18 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
+"iFQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_container/food/snacks/cheeseburger{
+	name = "rotting cheesburger";
+	pixel_y = -2
+	},
+/obj/effect/decal/cleanable/blood{
+	dir = 4;
+	icon_state = "gib6"
+	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "iFV" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -12691,6 +12807,12 @@
 	layer = 2.51
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
+/area/lv522/indoors/a_block)
+"iHm" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
+/turf/open/floor/carpet,
 /area/lv522/indoors/a_block)
 "iHW" = (
 /obj/structure/platform{
@@ -13012,13 +13134,13 @@
 /obj/structure/bed{
 	layer = 2.01
 	},
-/obj/item/bedsheet/brown,
 /obj/item/ashtray/glass{
 	icon_state = "ashtray_half_gl";
 	pixel_x = 9;
 	pixel_y = -3
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/bedsheet/rainbow,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "iRI" = (
@@ -13759,7 +13881,8 @@
 	pixel_y = 1
 	},
 /obj/item/clothing/under/colonist/workwear/pink{
-	pixel_y = -3
+	pixel_y = -3;
+	pixel_x = 1
 	},
 /obj/item/clothing/under/colonist/workwear/green{
 	pixel_y = -8
@@ -15375,24 +15498,26 @@
 /area/lv522/indoors/a_block)
 "kir" = (
 /obj/structure/bed/chair/comfy,
-/obj/item/reagent_container/food/drinks/coffee{
-	pixel_x = -12;
-	pixel_y = 3
-	},
-/obj/item/trash/tray{
-	pixel_y = -6;
-	color = "#FFDBBB";
-	name = "dirty tray";
-	pixel_x = -15
-	},
 /obj/item/trash/tray{
 	pixel_y = -2;
+	color = "#FFDBBB";
+	name = "dirty tray";
+	pixel_x = -16
+	},
+/obj/item/trash/tray{
+	pixel_y = 1;
 	color = "#FFDBBB";
 	name = "dirty tray";
 	pixel_x = -15
 	},
 /obj/item/trash/cigbutt/cigarbutt,
-/turf/open/floor/strata,
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = -12
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/lv522/indoors/a_block)
 "kjq" = (
 /obj/structure/platform/strata/metal{
@@ -16099,6 +16224,7 @@
 	pixel_y = -9;
 	pixel_x = -16
 	},
+/obj/structure/machinery/light/double/blue,
 /turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "kEr" = (
@@ -16637,10 +16763,12 @@
 	pixel_y = -1
 	},
 /obj/item/clothing/suit/storage/jacket/marine/corporate/blue{
-	pixel_y = 5
+	pixel_y = 5;
+	pixel_x = -1
 	},
 /obj/item/clothing/under/liaison_suit/blue{
-	pixel_y = 1
+	pixel_y = 1;
+	pixel_x = -1
 	},
 /obj/item/clothing/suit/storage/jacket/marine/corporate/black{
 	pixel_y = -3
@@ -16806,7 +16934,7 @@
 /obj/item/storage/box/donkpockets{
 	pixel_y = 5
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "lds" = (
 /obj/structure/bed/chair{
@@ -16981,6 +17109,17 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
+/area/lv522/indoors/a_block)
+"llK" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	dir = 1;
+	name = "Quarters Airlock"
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "gib6"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
 "llN" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -17793,7 +17932,8 @@
 	pixel_y = 2
 	},
 /obj/item/clothing/under/colonist/workwear/blue{
-	pixel_y = -2
+	pixel_y = -2;
+	pixel_x = 1
 	},
 /obj/item/clothing/under/colonist/workwear/khaki{
 	pixel_y = -6
@@ -17803,7 +17943,8 @@
 	pixel_x = -1
 	},
 /obj/item/clothing/suit/storage/hazardvest{
-	pixel_y = -8
+	pixel_y = -8;
+	pixel_x = -1
 	},
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
@@ -19164,9 +19305,7 @@
 	pixel_x = 5
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata{
-	icon_state = "floor3"
-	},
+/turf/open/floor/carpet,
 /area/lv522/indoors/a_block)
 "mND" = (
 /obj/structure/pipes/vents/pump,
@@ -19316,13 +19455,15 @@
 /obj/structure/closet,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/suit/storage/jacket/marine/chef{
-	pixel_y = 5
+	pixel_y = 5;
+	pixel_x = 1
 	},
 /obj/item/clothing/suit/storage/jacket/marine/chef{
-	pixel_y = -1
+	pixel_y = -1;
+	pixel_x = -2
 	},
 /obj/item/clothing/suit/storage/jacket/marine/chef{
-	pixel_y = -7
+	pixel_y = -6
 	},
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
@@ -20478,7 +20619,7 @@
 	dir = 8;
 	pixel_y = 5
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "nFk" = (
 /obj/structure/reagent_dispensers/beerkeg/alt,
@@ -22239,19 +22380,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/indoors/a_block)
-"oKL" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_y = 9;
-	pixel_x = 2
-	},
-/obj/item/device/flashlight/lamp{
-	pixel_x = 6;
-	pixel_y = -2
-	},
-/turf/open/floor/strata,
-/area/lv522/indoors/a_block)
 "oLl" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/structure/cable/heavyduty{
@@ -22259,6 +22387,22 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/lv522/outdoors/colony_streets)
+"oLu" = (
+/obj/structure/closet{
+	pixel_y = -1
+	},
+/obj/item/clothing/under/colonist/boilersuit{
+	pixel_y = 4
+	},
+/obj/item/clothing/under/colonist/boilersuit{
+	pixel_y = -2
+	},
+/obj/item/clothing/under/colonist/boilersuit{
+	pixel_y = -7
+	},
+/obj/item/prop/helmetgarb/prescription_bottle,
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "oLA" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4
@@ -22366,7 +22510,7 @@
 	pixel_y = 3
 	},
 /obj/structure/surface/table/reinforced/black,
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "oQf" = (
 /obj/structure/platform,
@@ -22462,7 +22606,10 @@
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/strata,
+/turf/open/floor/strata{
+	dir = 8;
+	icon_state = "multi_tiles"
+	},
 /area/lv522/indoors/a_block)
 "oSV" = (
 /obj/structure/window/framed/strata/reinforced,
@@ -22676,6 +22823,12 @@
 /turf/open/floor/strata{
 	dir = 6;
 	icon_state = "multi_tiles"
+	},
+/area/lv522/indoors/a_block)
+"paN" = (
+/obj/structure/foamed_metal/iron,
+/turf/open/floor/strata{
+	icon_state = "floor3"
 	},
 /area/lv522/indoors/a_block)
 "pbc" = (
@@ -23699,6 +23852,12 @@
 	icon_state = "floor3"
 	},
 /area/lv522/outdoors/colony_streets)
+"pFM" = (
+/obj/structure/machinery/light/double/blue,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "pFY" = (
 /obj/structure/surface/rack,
 /obj/item/circuitboard/apc{
@@ -24930,6 +25089,17 @@
 	icon_state = "white_cyan2"
 	},
 /area/lv522/indoors/a_block)
+"qvf" = (
+/obj/structure/platform,
+/obj/structure/machinery/light/double/blue,
+/obj/structure/largecrate/random/mini{
+	pixel_y = 2
+	},
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
+/area/lv522/indoors/a_block)
 "qvi" = (
 /obj/item/paper_bin{
 	pixel_y = 5;
@@ -25084,7 +25254,7 @@
 	pixel_x = -2
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "qCf" = (
 /obj/structure/filingcabinet{
@@ -25918,6 +26088,19 @@
 /obj/structure/largecrate/random/case,
 /turf/open/auto_turf/sand_white/layer0,
 /area/lv522/outdoors/colony_streets)
+"rdQ" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 11
+	},
+/obj/item/clothing/shoes/jackboots{
+	pixel_x = -16;
+	pixel_y = 9
+	},
+/obj/item/clothing/shoes/black{
+	pixel_x = -16
+	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "rdT" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -26471,7 +26654,7 @@
 	pixel_y = 5;
 	pixel_x = 5
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "ruH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27285,8 +27468,8 @@
 /obj/structure/bed{
 	layer = 2.01
 	},
-/obj/item/bedsheet,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/bedsheet/hop,
 /turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "rSt" = (
@@ -27627,7 +27810,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "sfc" = (
 /obj/structure/surface/rack,
@@ -27751,9 +27934,10 @@
 	pixel_y = 8
 	},
 /obj/item/reagent_container/syringe/drugs,
-/obj/item/prop/tableflag/upp{
-	pixel_x = -9;
-	pixel_y = 8
+/obj/item/trash/candle{
+	pixel_x = -6;
+	name = "incense candle";
+	pixel_y = 12
 	},
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
@@ -27897,7 +28081,7 @@
 /obj/item/clothing/shoes/slippers_worn{
 	pixel_x = -5
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "smW" = (
 /obj/structure/closet/cryo,
@@ -28648,7 +28832,7 @@
 	pixel_y = -4;
 	pixel_x = 2
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "sNZ" = (
 /obj/structure/ladder,
@@ -28683,9 +28867,6 @@
 /obj/item/device/flashlight/lamp{
 	pixel_x = 5;
 	pixel_y = 10
-	},
-/obj/structure/machinery/light/double/blue{
-	dir = 4
 	},
 /obj/item/ashtray/bronze{
 	pixel_x = -5;
@@ -29969,6 +30150,7 @@
 "tGF" = (
 /obj/item/stool,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/broken_bottle,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "tGR" = (
@@ -30021,6 +30203,12 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 1
 	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
+"tIU" = (
+/obj/structure/pipes/vents/pump,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pottedplant/random,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "tJe" = (
@@ -30119,7 +30307,10 @@
 	pixel_x = -4;
 	pixel_y = 3
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/lv522/indoors/a_block)
 "tNs" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
@@ -30196,9 +30387,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_container/food/drinks/coffee{
 	pixel_x = 11;
-	pixel_y = 6
+	pixel_y = 2;
+	layer = 3.03
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata{
+	dir = 6;
+	icon_state = "multi_tiles"
+	},
 /area/lv522/indoors/a_block)
 "tRe" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -30233,8 +30428,8 @@
 /area/lv522/indoors/a_block)
 "tRp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/photocopier{
-	pixel_y = 2
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	pixel_y = 4
 	},
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
@@ -31667,6 +31862,13 @@
 	icon_state = "floor3"
 	},
 /area/lv522/outdoors/colony_streets)
+"uUv" = (
+/obj/structure/bed{
+	layer = 2.01
+	},
+/obj/item/bedsheet/green,
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "uUV" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/storage/fancy/cigarettes{
@@ -31681,7 +31883,7 @@
 	id = "southwing12";
 	name = "window shutter control"
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "uVa" = (
 /obj/structure/bed/chair/comfy{
@@ -32123,7 +32325,7 @@
 /obj/item/prop/magazine/book{
 	name = "The Rusty Red Rifle By Joeffery Younghusband";
 	desc = "A book covering the current state of the Royal Marine Commandos, and their inability to contain the many threats facing the empire today.";
-	pixel_y = 2;
+	pixel_y = 3;
 	pixel_x = 2
 	},
 /obj/structure/pipes/vents/pump,
@@ -32989,7 +33191,7 @@
 /obj/structure/bed{
 	layer = 2.01
 	},
-/obj/item/bedsheet,
+/obj/item/bedsheet/brown,
 /turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "vQu" = (
@@ -34301,6 +34503,10 @@
 	icon_state = "multi_tiles"
 	},
 /area/lv522/outdoors/colony_streets)
+"wAh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/lv522/indoors/a_block)
 "wAx" = (
 /obj/structure/closet,
 /obj/item/clothing/under/colonist/workwear{
@@ -34342,6 +34548,36 @@
 /obj/structure/closet{
 	pixel_y = -1
 	},
+/obj/item/reagent_container/hypospray/autoinjector/adrenaline{
+	layer = 3.01;
+	pixel_y = -2
+	},
+/obj/item/clothing/under/rank/medical/blue{
+	pixel_y = 3
+	},
+/obj/item/clothing/under/rank/medical/green,
+/obj/item/clothing/under/colonist/workwear/pink{
+	pixel_y = -4
+	},
+/obj/item/reagent_container/hypospray/autoinjector/adrenaline{
+	layer = 3.01;
+	pixel_y = -4
+	},
+/obj/item/reagent_container/hypospray/autoinjector/adrenaline{
+	layer = 3.01;
+	pixel_y = -8
+	},
+/obj/item/storage/fancy/candle_box{
+	layer = 3.01;
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/storage/fancy/candle_box{
+	layer = 3.01;
+	pixel_x = 5;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
 "wBs" = (
@@ -34973,6 +35209,20 @@
 	},
 /turf/open/floor/strata,
 /area/lv522/indoors/a_block)
+"wST" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/microwave{
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_container/food/snacks/cheeseburger{
+	name = "rotting cheesburger"
+	},
+/obj/item/reagent_container/food/snacks/cheeseburger{
+	name = "rotting cheesburger"
+	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "wSZ" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -35010,7 +35260,7 @@
 	pixel_y = 6;
 	pixel_x = -8
 	},
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "wTT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -35879,6 +36129,20 @@
 	icon_state = "multi_tiles"
 	},
 /area/lv522/indoors/a_block)
+"xFu" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/cameras/wooden_tv/prop{
+	dir = 8;
+	layer = 3;
+	pixel_y = 8
+	},
+/obj/item/trash/candle{
+	pixel_x = 1;
+	name = "incense candle";
+	pixel_y = -4
+	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "xFC" = (
 /obj/structure/machinery/vending/coffee/simple,
 /turf/open/floor/strata,
@@ -36389,6 +36653,27 @@
 	icon_state = "multi_tiles"
 	},
 /area/lv522/indoors/a_block)
+"ybb" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_y = 9;
+	pixel_x = 2
+	},
+/obj/item/device/flashlight/lamp{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/trash/candle{
+	pixel_x = -6;
+	name = "incense candle"
+	},
+/obj/item/tool/lighter/random{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/floor/strata,
+/area/lv522/indoors/a_block)
 "ybd" = (
 /obj/effect/decal/cleanable/blood{
 	dir = 4;
@@ -36614,7 +36899,7 @@
 /obj/item/seeds/poppyseed,
 /obj/item/seeds/poppyseed,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/strata,
+/turf/open/floor/strata/fake_wood,
 /area/lv522/indoors/a_block)
 "yhA" = (
 /obj/item/stack/tile/plasteel{
@@ -69925,9 +70210,9 @@ gUF
 rux
 dAc
 sNH
-wkO
+aCl
 nfq
-uQN
+wmO
 dAc
 bBy
 tOv
@@ -70264,9 +70549,9 @@ qFZ
 qCa
 igY
 igY
-cDI
+wAh
 dAc
-gGb
+iHm
 mNl
 nfq
 lcp
@@ -70953,7 +71238,7 @@ dAc
 uUV
 nEf
 tJh
-iur
+erg
 dAc
 cgF
 tJh
@@ -137255,10 +137540,10 @@ cLd
 gGW
 auF
 qFZ
-sUX
-sUX
-sUX
-sUX
+dlW
+dlW
+dlW
+paN
 qFZ
 dTt
 ifZ
@@ -137597,10 +137882,10 @@ ufK
 eeu
 wnp
 qFZ
-sUX
-sUX
-sUX
-sUX
+dlW
+dlW
+dlW
+dlW
 qFZ
 ifZ
 qFZ
@@ -139985,7 +140270,7 @@ dAc
 nYl
 nfq
 nfq
-abR
+qvf
 dAc
 nfq
 nfq
@@ -140662,14 +140947,14 @@ shc
 jqn
 dAc
 rYQ
-hyX
+bGe
 oSM
 euL
 dAc
 jbl
 nfq
 nfq
-cRn
+xeK
 dAc
 dAc
 dAc
@@ -141011,7 +141296,7 @@ dAc
 nsF
 nfq
 nfq
-cRn
+qsP
 dAc
 sUX
 sUX
@@ -141353,7 +141638,7 @@ dAc
 oGs
 nfq
 nfq
-cRn
+mua
 dAc
 sUX
 sUX
@@ -141688,7 +141973,7 @@ hLc
 csy
 dAc
 ajh
-sUX
+xQC
 sUX
 wUL
 dAc
@@ -142027,7 +142312,7 @@ wqA
 ryp
 cTF
 nfq
-nfq
+bdy
 iam
 nfq
 aqa
@@ -144761,14 +145046,14 @@ jwt
 jwt
 vnr
 qFZ
-wBq
-cDP
+oLu
+eYD
 uVE
 dAc
-sUX
-sUX
-sUX
-sUX
+wkO
+gWc
+nNQ
+hyX
 dAc
 sRI
 nfq
@@ -145103,14 +145388,14 @@ jwt
 jwt
 vnr
 wdn
-sUX
-sUX
-sUX
+rdQ
+cDI
+pFM
 dAc
+gGb
 sUX
-sUX
-sUX
-sUX
+iFQ
+wST
 dAc
 llg
 fIU
@@ -145445,11 +145730,11 @@ jwt
 jwt
 vnr
 wdn
+lGd
 nfq
 nfq
-nfq
-iam
-nfq
+llK
+lGd
 nfq
 nfq
 nfq
@@ -145787,14 +146072,14 @@ jwt
 jwt
 vnr
 qFZ
-uVE
-oKL
+uUv
+ybb
 wBq
 dAc
-sUX
-sUX
-nkB
-rYQ
+xFu
+fcH
+tIU
+uQN
 dAc
 gNN
 dxu
