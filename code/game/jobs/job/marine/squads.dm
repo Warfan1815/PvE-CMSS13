@@ -197,7 +197,7 @@
 	locked = TRUE
 
 /datum/squad/marine/movie
-	name = SQUAD_MARINE_6
+	name = SQUAD_MOVIE
 	equipment_color = "#4148c8"
 	chat_color = "#828cff"
 	access = list(ACCESS_MARINE_ALPHA)

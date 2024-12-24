@@ -1084,7 +1084,7 @@
 	if(new_human.client)
 		if(get_job_playtime(new_human.client, rank) < JOB_PLAYTIME_TIER_1)
 			return "ME1"
-	return paygrade
+	return paygrades
 
 //*****************************************************************************************************/
 
@@ -1100,7 +1100,7 @@
 	)
 	assignment = JOB_ADVISOR
 	rank = JOB_ADVISOR
-	paygrade = "WYC3"
+	paygrades = list(PAY_SHORT_CIV = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "CA"
 	skills = /datum/skills/civilian
 

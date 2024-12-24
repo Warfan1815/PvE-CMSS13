@@ -8,7 +8,6 @@
 #define SQUAD_MARINE_3 "Charlie"
 #define SQUAD_MARINE_4 "Delta"
 #define SQUAD_MARINE_5 "Echo"
-#define SQUAD_MARINE_6 "2nd Battalion Bravo Team"
 #define SQUAD_MARINE_CRYO "Foxtrot"
 #define SQUAD_MARINE_INTEL "Intel"
 #define SQUAD_SOF "SOF"
@@ -17,6 +16,7 @@
 #define SQUAD_SOLAR "Solar Devils"
 #define SQUAD_UPP "Red Dawn"
 #define SQUAD_LRRP "Snake Eaters"
+#define SQUAD_MOVIE "2nd Battalion Bravo Team"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
