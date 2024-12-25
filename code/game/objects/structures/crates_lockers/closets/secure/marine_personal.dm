@@ -33,6 +33,7 @@
 	if(has_cryo_gear)
 		new /obj/item/clothing/under/marine(src)
 		new /obj/item/clothing/shoes/marine/knife(src)
+		new /obj/item/device/radio/headset/almayer/marine/solardevils(src)
 		new /obj/item/device/radio/headset/almayer/marine(src)
 	if(has_officer_gear)
 		new /obj/item/clothing/under/marine/officer/boiler(src)
