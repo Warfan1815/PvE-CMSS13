@@ -151,17 +151,6 @@
 	. = ..()
 	access = get_access(ACCESS_LIST_MARINE_LIAISON)
 
-/datum/equipment_preset/uscm_ship/liaison/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel/lockable/liaison
-	//There is no suitable backpack for a CL really...
-	//if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		//back_item = /obj/item/storage/backpack
-
-	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/mcl(new_human), WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/liaison_suit/ivy(new_human), WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(new_human), WEAR_FEET)
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm_ship/reporter
@@ -876,16 +865,6 @@
 
 	minimap_icon = "pilot"
 
-/datum/equipment_preset/uscm_ship/dp/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel
-	if(new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/marine
-
-	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/po(new_human), WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/pilot(new_human), WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/knife(new_human), WEAR_FEET)
-
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm_ship/dp/full
@@ -971,16 +950,6 @@
 
 	dress_over = list(/obj/item/clothing/suit/storage/jacket/marine/dress/blues/nco)
 	dress_hat = list(/obj/item/clothing/head/marine/dress_cover)
-
-/datum/equipment_preset/uscm_ship/dcc/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel
-	if(new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/marine
-
-	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/po(new_human), WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/pilot/dcc(new_human), WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/knife(new_human), WEAR_FEET)
 
 //*****************************************************************************************************/
 
@@ -1089,7 +1058,7 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm_ship/ripley
-	name = "USCM Civilian Advisor"
+	name = "Civilian Advisor"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 
 	idtype = /obj/item/card/id/silver/cl
@@ -1104,36 +1073,19 @@
 	role_comm_title = "CA"
 	skills = /datum/skills/civilian
 
-	minimap_icon = "cl"
+	minimap_icon = "ca"
 	minimap_background = MINIMAP_ICON_BACKGROUND_CIVILIAN
 
-	utility_under = list(/obj/item/clothing/under/liaison_suit/black)
-	utility_hat = list()
-	utility_gloves = list()
-	utility_shoes = list(/obj/item/clothing/shoes/laceup)
+	utility_under = list(/obj/item/clothing/under/colonist)
+	utility_shoes = list(/obj/item/clothing/shoes/stompers)
 	utility_extra = list(/obj/item/clothing/under/liaison_suit/blue)
 
-	service_under = list(/obj/item/clothing/under/liaison_suit/field)
-	service_over = list()
-	service_hat = list()
-	service_shoes = list(/obj/item/clothing/shoes/laceup)
-
-	dress_under = list(/obj/item/clothing/under/liaison_suit/corporate_formal)
-	dress_over = list()
+	dress_under = list(/obj/item/clothing/under/colonist)
+	dress_over = list(/obj/item/clothing/suit/storage/jacket/marine/corporate/brown/leather)
 	dress_hat = list()
-	dress_gloves = list(/obj/item/clothing/gloves/marine/dress)
-	dress_shoes = list(/obj/item/clothing/shoes/laceup)
+	dress_gloves = list()
+	dress_shoes = list(/obj/item/clothing/shoes/stompers)
 
 /datum/equipment_preset/uscm_ship/ripley/New()
 	. = ..()
 	access = get_access(ACCESS_LIST_MARINE_LIAISON)
-
-/datum/equipment_preset/uscm_ship/ripley/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel/lockable/liaison
-	//There is no suitable backpack for a CL really...
-	//if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		//back_item = /obj/item/storage/backpack
-
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/liaison_suit/ivy(new_human), WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(new_human), WEAR_FEET)
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
