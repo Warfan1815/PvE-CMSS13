@@ -271,6 +271,11 @@
 /obj/docking_port/mobile/marine_dropship/tripoli,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/shuttle/tripoli)
+"yU" = (
+/turf/closed/shuttle/tripoli{
+	icon_state = "81"
+	},
+/area/shuttle/tripoli)
 "zl" = (
 /turf/open/shuttle/dropship/light_grey_bottom_left,
 /area/shuttle/tripoli)
@@ -745,7 +750,7 @@ ed
 ed
 ed
 OM
-ZW
+yU
 Cu
 CD
 XT

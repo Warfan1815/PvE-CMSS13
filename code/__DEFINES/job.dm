@@ -16,6 +16,7 @@
 #define SQUAD_SOLAR "Solar Devils"
 #define SQUAD_UPP "Red Dawn"
 #define SQUAD_LRRP "Snake Eaters"
+#define SQUAD_MOVIE "2nd Battalion Bravo Team"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
@@ -46,6 +47,7 @@ GLOBAL_LIST_INIT(job_squad_roles, JOB_SQUAD_ROLES_LIST)
 
 #define JOB_COLONIST "Colonist"
 #define JOB_PASSENGER "Passenger"
+#define JOB_ADVISOR "Civilian Advisor"
 #define JOB_SURVIVOR "Survivor"
 #define JOB_SYNTH_SURVIVOR "Synth Survivor"
 #define JOB_CO_SURVIVOR "CO Survivor"
