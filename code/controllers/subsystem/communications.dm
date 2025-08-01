@@ -78,6 +78,7 @@ Radiochat range: 1441 to 1489 (most devices refuse to be tune to other frequency
 #define CMB_FREQ 1220
 #define ASF_FREQ 1224
 #define ARM_FREQ 1228
+#define GRD_FREQ 1229
 
 //WY Channels (1230-1249)
 #define WY_FREQ 1231
@@ -103,6 +104,8 @@ Radiochat range: 1441 to 1489 (most devices refuse to be tune to other frequency
 #define CLF_ENGI_FREQ 1273
 #define CLF_MED_FREQ 1274
 #define CLF_CCT_FREQ 1275
+#define PFA_FREQ 1278
+#define JSC_FREQ 1279
 
 //Listening Bugs (1290-1291)
 #define BUG_A_FREQ 1290
@@ -155,6 +158,7 @@ GLOBAL_LIST_INIT(radiochannels, list(
 	RADIO_CHANNEL_CMB = CMB_FREQ,
 	RADIO_CHANNEL_USASF = ASF_FREQ,
 	RADIO_CHANNEL_US_ARMY = ARM_FREQ,
+	RADIO_CHANNEL_UA_GUARD = GRD_FREQ,
 	RADIO_CHANNEL_DUTCH_DOZEN = DUT_FREQ,
 	RADIO_CHANNEL_ROYAL_MARINE = RMC_FREQ,
 
@@ -212,6 +216,9 @@ GLOBAL_LIST_INIT(radiochannels, list(
 
 	RADIO_CHANNEL_BUG_A = BUG_A_FREQ,
 	RADIO_CHANNEL_BUG_B = BUG_B_FREQ,
+
+	RADIO_CHANNEL_REBEL_UA = PFA_FREQ,
+	RADIO_CHANNEL_REBEL_TWE = JSC_FREQ,
 ))
 
 // Response Teams
@@ -222,6 +229,9 @@ GLOBAL_LIST_INIT(radiochannels, list(
 
 // CLF Frequencies
 #define CLF_FREQS list(CLF_FREQ, CLF_CMD_FREQ, CLF_ENGI_FREQ, CLF_MED_FREQ, CLF_CCT_FREQ)
+
+// Rebel Frequencies
+#define REBEL_FREQS list(PFA_FREQ, JSC_FREQ)
 
 // PMC Frequencies
 #define PMC_FREQS list(PMC_FREQ, PMC_CMD_FREQ, PMC_ENGI_FREQ, PMC_MED_FREQ, PMC_CCT_FREQ, WY_WO_FREQ, WY_FREQ)
@@ -283,6 +293,7 @@ SUBSYSTEM_DEF(radio)
 		"[CMB_FREQ]" = "cmbradio",
 		"[ASF_FREQ]" = "usasfradio",
 		"[ARM_FREQ]" = "armyradio",
+		"[GRD_FREQ]" = "guardradio",
 		"[ALPHA_FREQ]" = "alpharadio",
 		"[BRAVO_FREQ]" = "bravoradio",
 		"[CHARLIE_FREQ]" = "charlieradio",
@@ -309,6 +320,8 @@ SUBSYSTEM_DEF(radio)
 		"[CLF_ENGI_FREQ]" = "opforeng",
 		"[CLF_MED_FREQ]" = "opformed",
 		"[CLF_CCT_FREQ]" = "opforcct",
+		"[PFA_FREQ]" = "pfaradio",
+		"[JSC_FREQ]" = "jscradio",
 	)
 
 /datum/controller/subsystem/radio/proc/add_object(obj/device as obj, new_frequency as num, filter = null as text|null)

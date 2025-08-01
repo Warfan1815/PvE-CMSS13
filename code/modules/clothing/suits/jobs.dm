@@ -95,8 +95,8 @@
 
 //Chef
 /obj/item/clothing/suit/chef
-	name = "Chef's apron"
-	desc = "An apron used by a high-class chef."
+	name = "Chef's coat"
+	desc = "A coat used by a high-class chef."
 	icon_state = "chef"
 	item_state = "chef"
 	gas_transfer_coefficient = 0.90
@@ -116,7 +116,7 @@
 
 //Chef
 /obj/item/clothing/suit/chef/classic
-	name = "A classic chef's apron."
+	name = "white apron"
 	desc = "A basic, dull, white chef's apron."
 	icon_state = "apronchef"
 	item_state = "apronchef"
@@ -179,7 +179,7 @@
 
 		/obj/item/weapon/gun,
 		/obj/item/ammo_magazine,
-		/obj/item/ammo_casing,
+		/obj/effect/decal/ammo_casing,
 		/obj/item/weapon/baton,
 		/obj/item/restraint/handcuffs,
 		/obj/item/storage/fancy/cigarettes,
@@ -243,7 +243,7 @@
 		/obj/item/tool/lighter,
 		/obj/item/weapon/baton,
 		/obj/item/ammo_magazine,
-		/obj/item/ammo_casing,
+		/obj/effect/decal/ammo_casing,
 		/obj/item/weapon/baton,
 		/obj/item/restraint/handcuffs,
 		/obj/item/device/binoculars,
