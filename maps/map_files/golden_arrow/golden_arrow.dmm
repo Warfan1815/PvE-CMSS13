@@ -638,6 +638,12 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
+"abq" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/golden_arrow/motor_pool)
 "abs" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3400,7 +3406,8 @@
 /area/golden_arrow/motor_pool)
 "ahv" = (
 /obj/effect/hangar_airlock/half_tile{
-	layer = 2
+	layer = 2;
+	dir = 8
 	},
 /turf/open/floor/hangar_airlock/outer/frame49,
 /area/golden_arrow/motor_pool)
@@ -3417,14 +3424,14 @@
 	layer = 2;
 	dir = 8
 	},
-/turf/open/floor/hangar_airlock/outer/frame49,
+/turf/open/floor/hangar_airlock/outer/frame43,
 /area/golden_arrow/motor_pool)
 "ahy" = (
 /obj/effect/hangar_airlock/half_tile{
 	layer = 2;
 	dir = 8
 	},
-/turf/open/floor/hangar_airlock/outer/frame43,
+/turf/open/floor/hangar_airlock/outer/frame35,
 /area/golden_arrow/motor_pool)
 "ahz" = (
 /obj/effect/decal/warning_stripes{
@@ -3467,26 +3474,23 @@
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/hangar)
 "ahC" = (
-/obj/effect/hangar_airlock/half_tile{
-	layer = 2;
-	dir = 8
-	},
-/turf/open/floor/hangar_airlock/outer/frame35,
-/area/golden_arrow/motor_pool)
-"ahD" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/motor_pool)
-"ahE" = (
+"ahD" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating/bare_catwalk,
 /area/golden_arrow/engineering)
+"ahE" = (
+/obj/structure/machinery/ares/processor/apollo,
+/turf/open/floor/almayer/aicore/glowing,
+/area/golden_arrow/ai_interface)
 "ahF" = (
 /obj/structure/machinery/door/poddoor/railing{
 	id = "garrow_vehicle_elevator_one"
@@ -3494,7 +3498,7 @@
 /turf/open/floor/almayer/black/north,
 /area/golden_arrow/vehicle_shuttle/upper)
 "ahG" = (
-/obj/structure/machinery/ares/processor/apollo,
+/obj/structure/machinery/ares/processor/interface,
 /turf/open/floor/almayer/aicore/glowing,
 /area/golden_arrow/ai_interface)
 "ahI" = (
@@ -3519,11 +3523,11 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "ahL" = (
-/obj/structure/machinery/ares/processor/interface,
+/obj/structure/machinery/ares/cpu,
 /turf/open/floor/almayer/aicore/glowing,
 /area/golden_arrow/ai_interface)
 "ahM" = (
-/obj/structure/machinery/ares/cpu,
+/obj/structure/machinery/ares/processor,
 /turf/open/floor/almayer/aicore/glowing,
 /area/golden_arrow/ai_interface)
 "ahN" = (
@@ -3532,10 +3536,6 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/motor_pool)
-"ahO" = (
-/obj/structure/machinery/ares/processor,
-/turf/open/floor/almayer/aicore/glowing,
-/area/golden_arrow/ai_interface)
 "ahR" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -27086,7 +27086,7 @@ aEG
 "}
 (31,1,1) = {"
 rRA
-ahG
+ahE
 rRA
 rRA
 rRA
@@ -27263,7 +27263,7 @@ aEG
 "}
 (32,1,1) = {"
 rRA
-ahL
+ahG
 rRA
 rRA
 rRA
@@ -27627,9 +27627,9 @@ duL
 duL
 duL
 hCn
-ahE
-ahE
-ahE
+ahD
+ahD
+ahD
 hCn
 nrp
 anm
@@ -27971,7 +27971,7 @@ aEG
 "}
 (36,1,1) = {"
 rRA
-ahM
+ahL
 rRA
 rRA
 rRA
@@ -28148,7 +28148,7 @@ aEG
 "}
 (37,1,1) = {"
 rRA
-ahO
+ahM
 rRA
 rRA
 rRA
@@ -29053,7 +29053,7 @@ aEG
 axS
 axS
 aep
-ahv
+abq
 afb
 afc
 afb
@@ -29090,7 +29090,7 @@ aRg
 axS
 axS
 aep
-ahv
+abq
 afb
 afc
 afb
@@ -30820,8 +30820,8 @@ aEG
 aEG
 aEG
 aEG
-ahD
 ahC
+ahy
 aeD
 aeD
 aeD
@@ -30999,7 +30999,7 @@ aEG
 aEG
 axS
 axS
-ahy
+ahx
 aeS
 aeS
 aeS
@@ -31177,7 +31177,7 @@ aEG
 axS
 axS
 aep
-ahx
+ahv
 afb
 afe
 afb
