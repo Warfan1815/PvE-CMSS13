@@ -1301,7 +1301,8 @@
 	name = "Hangar_One"
 	},
 /obj/structure/machinery/door/poddoor/almayer/airlock/golden_arrow_one{
-	id = "south_airlock_one"
+	id = "south_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/lower_cargo)
@@ -1321,7 +1322,8 @@
 /area/golden_arrow/cryo_cells)
 "dd" = (
 /obj/structure/machinery/door_control/dropship_airlock/golden_arrow_one{
-	id = "south_airlock_one"
+	id = "south_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/lower_cargo)
@@ -1527,7 +1529,8 @@
 /area/golden_arrow/lower_cargo)
 "dM" = (
 /obj/structure/machinery/door_control/dropship_airlock/golden_arrow_one{
-	id = "west_airlock_one"
+	id = "west_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/lower_cargo)
@@ -1536,7 +1539,8 @@
 	icon_state = "door_warning"
 	},
 /obj/structure/machinery/door_control/dropship_airlock/golden_arrow_one{
-	id = "east_airlock_one"
+	id = "east_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/lower_cargo)
@@ -1569,7 +1573,8 @@
 	},
 /obj/structure/machinery/door/poddoor/almayer/airlock/golden_arrow_one{
 	dir = 8;
-	id = "west_airlock_one"
+	id = "west_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/lower_cargo)
@@ -1603,7 +1608,8 @@
 	},
 /obj/structure/machinery/door/poddoor/almayer/airlock/golden_arrow_one{
 	dir = 8;
-	id = "east_airlock_one"
+	id = "east_airlock_one";
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/lower_cargo)
@@ -1741,7 +1747,9 @@
 /turf/open/floor/almayer/mono,
 /area/golden_arrow/platoon_commander_rooms)
 "eq" = (
-/obj/structure/machinery/floodlight/landing/dropship_airlock/golden_arrow_one,
+/obj/structure/machinery/floodlight/landing/dropship_airlock/golden_arrow_one{
+	linked_inner_dropship_airlock_id = "rover-airlock-one"
+	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
 "er" = (
